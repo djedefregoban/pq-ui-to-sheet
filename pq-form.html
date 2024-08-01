@@ -5,73 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PQ Question Form</title>
     <style>
-        .message {
-            margin-top: 10px;
-        }
-        .message.success {
-            color: green;
-        }
-        .message.error {
-            color: red;
-        }
-        .message.waiting {
-            color: orange;
-        }
-        .message a {
-            color: blue;
-            text-decoration: underline;
-        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h2>SEND PCAIC</h2>
+        <h1>TEST</h1>
         <label for="reference">Reference Number:</label><br>
-        <input type="text" id="reference" name="reference" required>
-        <br>
-        <br>
-        <label>
-            <input type="checkbox" id="downloadCheckbox">
-            Download PCAIC
-        </label>
-        <br><br>
+        <input type="text" id="" name="reference" required>
         <button onclick="sendRequest()">Submit</button>
-        <div id="message" class="message"></div>
     </div>
 
     <script>
-        function download(url) {
-            const a = document.createElement('a');
-            a.href = url;
-            a.download = url.split('/').pop();
-            document.body.appendChild(a);
-            a.click();
-            document.body.removeChild(a);
-        }
-    
         async function sendRequest() {
-            const UID = document.getElementById('reference').value;
-            const downloadFile = document.getElementById('downloadCheckbox').checked;
-            const messageDiv = document.getElementById('message');
-
-            if (!UID) {
-                messageDiv.textContent = 'Reference number is required.';
-                messageDiv.className = 'message error';
-                return;
-            }
-
-            messageDiv.textContent = 'Waiting for response...';
-            messageDiv.className = 'message waiting';
+            const temp = document.getElementById('reference').value;
 
             try {
-                const response = await fetch('https://hook.us1.make.com/73oa243w8l21rb14ognxtp7n8bdtnhdd', {
+                const response = await fetch('https://hook.us1.make.com/vs9qa2amyz4ocbuk4jbdzolbuon3q6hu', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
                     },
                     body: JSON.stringify({
-                        UID,
-                        downloadFile  // Include the checkbox state in the request
+                        temp
                     })
                 });
 
