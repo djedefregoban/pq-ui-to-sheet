@@ -11,13 +11,13 @@
     <div class="container">
         <h1>TEST</h1>
         <label for="reference">Reference Number:</label><br>
-        <input type="text" id="" name="reference" required>
+        <input type="text" id="temp" name="reference" required>
         <button onclick="sendRequest()">Submit</button>
     </div>
 
     <script>
         async function sendRequest() {
-            const temp = document.getElementById('reference').value;
+            const temp = document.getElementById('temp').value;
 
             try {
                 const response = await fetch('https://hook.us1.make.com/vs9qa2amyz4ocbuk4jbdzolbuon3q6hu', {
@@ -31,26 +31,26 @@
                 });
 
                 const data = await response.json();
+                
+                // if (response.ok) {
+                //     if (data.fileUrl && downloadFile) {
+                //         download(data.fileUrl);
 
-                if (response.ok) {
-                    if (data.fileUrl && downloadFile) {
-                        download(data.fileUrl);
-
-                        // Add a manual download link in case the automatic download fails
-                        messageDiv.innerHTML = `
-                            Success: ${data.message} 
-                            If the download does not start automatically, 
-                            <a href="${data.fileUrl}" download>click here</a> to download the file.
-                        `;
-                        messageDiv.className = 'message success';
-                    } else {
-                        messageDiv.textContent = `Success: ${data.message}`;
-                        messageDiv.className = 'message success';
-                    }
-                } else {
-                    messageDiv.textContent = `Error: ${data.message || 'Something went wrong'}`;
-                    messageDiv.className = 'message error';
-                }
+                //         // Add a manual download link in case the automatic download fails
+                //         messageDiv.innerHTML = `
+                //             Success: ${data.message} 
+                //             If the download does not start automatically, 
+                //             <a href="${data.fileUrl}" download>click here</a> to download the file.
+                //         `;
+                //         messageDiv.className = 'message success';
+                //     } else {
+                //         messageDiv.textContent = `Success: ${data.message}`;
+                //         messageDiv.className = 'message success';
+                //     }
+                // } else {
+                //     messageDiv.textContent = `Error: ${data.message || 'Something went wrong'}`;
+                //     messageDiv.className = 'message error';
+                // }
             } catch (error) {
                 messageDiv.textContent = 'Network error: Unable to reach the API.';
                 messageDiv.className = 'message error';
