@@ -32,25 +32,25 @@
 
                 const data = await response.json();
                 
-                // if (response.ok) {
-                //     if (data.fileUrl && downloadFile) {
-                //         download(data.fileUrl);
+                if (response.status === 200) {
+                    if (data.fileUrl && downloadFile) {
+                        download(data.fileUrl);
 
-                //         // Add a manual download link in case the automatic download fails
-                //         messageDiv.innerHTML = `
-                //             Success: ${data.message} 
-                //             If the download does not start automatically, 
-                //             <a href="${data.fileUrl}" download>click here</a> to download the file.
-                //         `;
-                //         messageDiv.className = 'message success';
-                //     } else {
-                //         messageDiv.textContent = `Success: ${data.message}`;
-                //         messageDiv.className = 'message success';
-                //     }
-                // } else {
-                //     messageDiv.textContent = `Error: ${data.message || 'Something went wrong'}`;
-                //     messageDiv.className = 'message error';
-                // }
+                        // Add a manual download link in case the automatic download fails
+                        messageDiv.innerHTML = `
+                            Success: ${data.message} 
+                            If the download does not start automatically, 
+                            <a href="${data.fileUrl}" download>click here</a> to download the file.
+                        `;
+                        messageDiv.className = 'message success';
+                    } else {
+                        messageDiv.textContent = `Success: ${data.message}`;
+                        messageDiv.className = 'message success';
+                    }
+                } else {
+                    messageDiv.textContent = `Error: ${data.message || 'Something went wrong'}`;
+                    messageDiv.className = 'message error';
+                }
             } catch (error) {
                 messageDiv.textContent = 'Network error: Unable to reach the API.';
                 messageDiv.className = 'message error';
