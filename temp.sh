@@ -1,1 +1,1 @@
-=if ItemNumber != 1 then if ((Form.Temptable.Select(Bar) + "").Split(',')[ItemNumber - 2].Trim < Foo) then "True" else "False" else "ITEMNUMBER 1"
+=if ItemNumber != 1 then DateTime.Parse((Form.PersonalHistory.Select(ToText) + "").Split(',')[ItemNumber - 2].Trim) else null
