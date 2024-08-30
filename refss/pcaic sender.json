@@ -1,5 +1,5 @@
 {
-    "name": "PCAIC Send",
+    "name": "PCAIC Send (contract database)",
     "flow": [
         {
             "id": 1,

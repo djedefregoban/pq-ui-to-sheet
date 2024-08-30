@@ -1,1 +1,0 @@
-=if ItemNumber != 1 then DateTime.Parse((Form.PersonalHistory.Select(ToText) + "").Split(',')[ItemNumber - 2].Trim) else null
