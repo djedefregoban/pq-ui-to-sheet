@@ -22,6 +22,14 @@ If you answer yes to any of the above questions, please provide: A scanned copy
 
 11. Copy and paste some important message from pq to the online form
 
+12. Travel History - more than six months indicator (automate it)
+
+13. Come up with no gap logic
+
+14. Thank you page
+
+15. Readme page
+
 ## Check
 
 1. Mandatory field or not?
