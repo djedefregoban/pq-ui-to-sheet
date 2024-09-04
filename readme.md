@@ -49,6 +49,10 @@ If you answer yes to any of the above questions, please provide: A scanned copy
 
 16. Unsure checkmark as default
 
+17. Send a thank you email everytime one of them finishes with status.
+
+17. When PA submits PQ, send thank you email with status and document request if refusals and stuff.
+
 ## Check
 
 1. Mandatory field or not?
