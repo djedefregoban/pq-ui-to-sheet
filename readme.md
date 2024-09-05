@@ -21,7 +21,7 @@
 
 3. Choose custom error X
 
-4. Refactor and reorganize
+4. Refactor and reorganize X
 
 5. From, to filed no earlier than to X
 
@@ -39,7 +39,7 @@ If you answer yes to any of the above questions, please provide: A scanned copy
 
 11. Copy and paste some important message from pq to the online form X
 
-12. Travel History - more than six months indicator (automate it)
+12. Travel History - more than six months indicator (automate it) X
 
 13. Come up with no gap logic X
 
@@ -49,7 +49,7 @@ If you answer yes to any of the above questions, please provide: A scanned copy
 
 16. Unsure checkmark as default
 
-17. Send a thank you email everytime one of them finishes with status.
+17. Send a thank you email everytime one of them finishes with status
 
 17. When PA submits PQ, send thank you email with status and document request if refusals and stuff.
 
