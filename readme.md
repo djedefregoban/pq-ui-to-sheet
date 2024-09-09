@@ -10,6 +10,44 @@
 4. PQ automatically sent back to us in pdf to the correspond dropbox
 5. if client doesn't do PQ within a certain amount of time, auto-follow-up
 
+# Sender
+1. Enter Client ID and PQ info on the website
+3. Find the client on Notion using client ID
+4. Create a task linked to the client specifying how pqs have been sent (timestamp! no check off!)
+e.g.,
+- Title
+BOT: Send PQ - 3 PQ(s) have been sent (# set up date and dont check off the mark)
+- Content
+PA - Loviisa (General) - Sent
+Spouse - Spouse or Common-partner of Loviisa (General) - Sent
+Supporter - Shimmel - (PGP) - Received
+...
+
+2. Using PQ info, create entries based on each client and update pq status's form internal link
+- create entry with taskid attached to it
+5. Upload the JSON to the task
+
+## Remarks
+- Format the email
+- Think about error checks more
+
+# Watcher
+1. Upon cathing an update, find the task using taskID coming from PQ info 
+2. get the JSON in the task and look for the client using internal link
+3. Update ifReturned to true from false (# will there be any situations where ifReturned is originally true?)
+4. Send thank you email to the just completer (if the relationship is applicant, and the form has refusal etc. include those stuff into the email)
+4. look through every ifReturned to check if every pq has been received (# make a function for this)
+- if yes,
+	1. using the task id, check off the mark of the task
+	2. create another task linked to the client indicating every pq has been received (timestamp!)
+
+- if no,
+	do nothing?
+
+# Reminder
+1. look through bot tasks (if not checked off and timestamp has been more than a certain time amount)
+2. send a remind email containig the pq status (using JSON!)
+
 # Remarks
 1. Date of completion
 
@@ -46,8 +84,6 @@ If you answer yes to any of the above questions, please provide: A scanned copy
 14. Thank you page
 
 15. Readme page
-
-16. Unsure checkmark as default
 
 17. Send a thank you email everytime one of them finishes with status
 
