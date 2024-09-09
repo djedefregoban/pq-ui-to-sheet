@@ -91,6 +91,14 @@ If you answer yes to any of the above questions, please provide: A scanned copy
 
 18. PQ sending Front (relationship to PA field)
 
+- dropbox change
+
+- three digits for the client id
+
+- task two times (sending and completion assigned to no one)
+
+- booking link
+
 ## Check
 
 1. Mandatory field or not?
