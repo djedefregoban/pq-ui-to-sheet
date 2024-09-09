@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Client Form</title>
+    <title>Manual PQ Sender</title>
     <style>
       body {
         font-family: Arial, sans-serif;
@@ -31,10 +31,7 @@
         border: none;
         cursor: pointer;
       }
-      button.add-client {
-        background-color: #007bff;
-      }
-      /* Loading screen styling */
+
       .loading-overlay {
         position: fixed;
         top: 0;
@@ -46,7 +43,7 @@
         justify-content: center;
         align-items: center;
         z-index: 1000;
-        visibility: hidden; /* Initially hidden */
+        visibility: hidden;
       }
       .spinner {
         border: 8px solid #f3f3f3;
@@ -67,7 +64,7 @@
     </style>
   </head>
   <body>
-    <h1>Manuel PQ Sender</h1>
+    <h3>Manuel PQ Sender</h3>
 
     <form id="clientForm">
       <div class="form-section" id="client-section-1">
@@ -76,7 +73,7 @@
           type="text"
           id="clientId"
           name="clientId"
-          placeholder="nnnn/mm/yy"
+          placeholder="nnnnmmyy"
           required
         />
 
@@ -92,13 +89,6 @@
             required
           />
 
-          <label for="whichPq">PQ Type:</label>
-          <select id="whichPq-1" name="whichPq">
-            <option value="general">General</option>
-            <option value="pgp">PGP</option>
-            <option value="lmia">LMIA</option>
-          </select>
-
           <label for="relationship">Relationship:</label>
           <select id="relationship-1" name="relationship">
             <option value="applicant">Applicant</option>
@@ -106,16 +96,21 @@
             <option value="sponsor">Sponsor</option>
             <option value="others">Others</option>
           </select>
+
+          <label for="whichPq">PQ Type:</label>
+          <select id="whichPq-1" name="whichPq">
+            <option value="general">General</option>
+            <option value="pgp">PGP</option>
+            <option value="lmia">LMIA</option>
+          </select>
         </div>
       </div>
 
       <button type="button" class="add-client" onclick="addClientSection()">
-        Add More Client
+        Add Receiver
       </button>
       <button type="button" onclick="generateJson()">Submit</button>
     </form>
-
-    <pre id="output"></pre>
 
     <!-- Loading Overlay -->
     <div class="loading-overlay" id="loadingOverlay">
@@ -129,13 +124,21 @@
       function addClientSection() {
         clientCount++;
 
-        const newSection = document.createElement('div');
-        newSection.classList.add('form-section');
-        newSection.setAttribute('id', `client-section-${clientCount}`);
+        const newSection = document.createElement("div");
+        newSection.classList.add("form-section");
+        newSection.setAttribute("id", `client-section-${clientCount}`);
 
         newSection.innerHTML = `
                 <label for="pqName-${clientCount}">Name:</label>
                 <input type="text" id="pqName-${clientCount}" name="pqName" placeholder="Enter name" required>
+
+                                <label for="relationship-${clientCount}">Relationship:</label>
+                <select id="relationship-${clientCount}" name="relationship">
+                    <option value="applicant">Applicant</option>
+                    <option value="spouse">Spouse</option>
+                    <option value="sponsor">Sponsor</option>
+                    <option value="others">Others</option>
+                </select>
 
                 <label for="whichPq-${clientCount}">PQ Type:</label>
                 <select id="whichPq-${clientCount}" name="whichPq">
@@ -143,34 +146,26 @@
                     <option value="pgp">PGP</option>
                     <option value="lmia">LMIA</option>
                 </select>
-
-                <label for="relationship-${clientCount}">Relationship:</label>
-                <select id="relationship-${clientCount}" name="relationship">
-                    <option value="applicant">Applicant</option>
-                    <option value="spouse">Spouse</option>
-                    <option value="sponsor">Sponsor</option>
-                    <option value="others">Others</option>
-                </select>
             `;
 
         document
-          .getElementById('clientForm')
-          .insertBefore(newSection, document.querySelector('.add-client'));
+          .getElementById("clientForm")
+          .insertBefore(newSection, document.querySelector(".add-client"));
       }
 
       // Function to show the loading screen
       function showLoading() {
-        document.getElementById('loadingOverlay').style.visibility = 'visible';
+        document.getElementById("loadingOverlay").style.visibility = "visible";
       }
 
       // Function to hide the loading screen
       function hideLoading() {
-        document.getElementById('loadingOverlay').style.visibility = 'hidden';
+        document.getElementById("loadingOverlay").style.visibility = "hidden";
       }
 
       // Function to generate JSON and send it to a webhook
       function generateJson() {
-        const clientId = document.getElementById('clientId').value;
+        const clientId = document.getElementById("clientId").value;
         const pqStatus = [];
 
         for (let i = 1; i <= clientCount; i++) {
@@ -185,7 +180,7 @@
             whichPq,
             relationship,
             ifReturned: true,
-            publicLink: '',
+            publicLink: "",
           });
         }
 
@@ -196,37 +191,30 @@
           },
         };
 
-        // Display JSON in the pre tag for preview
-        document.getElementById('output').textContent = JSON.stringify(
-          resultJson,
-          null,
-          2
-        );
-
         // Show loading screen
         showLoading();
 
         const webhookUrl =
-          'https://hook.us2.make.com/1xumjj827fntdh8cns2irnuvtcgs58np'; // <-- Replace this with your webhook URL
+          "https://hook.us1.make.com/h7ew87nojp4g4ggmaijgs4b88ng2c3yh"; // <-- Replace this with your webhook URL
 
         // Send the JSON to the webhook using fetch
         fetch(webhookUrl, {
-          method: 'POST',
+          method: "POST",
           headers: {
-            'Content-Type': 'application/json',
+            "Content-Type": "application/json",
           },
           body: JSON.stringify(resultJson),
         })
           .then((response) => response.json())
           .then((data) => {
-            console.log('Success:', data);
+            console.log("Success:", data);
             document.querySelector(
-              '#clientForm'
+              "#clientForm"
             ).innerHTML = `<p>${data.response}</p>`;
           })
           .catch((error) => {
-            console.error('Error:', error);
-            document.querySelector('#clientForm').innerHTML = `<p>${error}</p>`;
+            console.error("Error:", error);
+            document.querySelector("#clientForm").innerHTML = `<p>${error}</p>`;
           })
           .finally(() => {
             // Hide loading screen after the response is received
