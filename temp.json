@@ -1,0 +1,68 @@
+// PQ status from the front
+pqStatus.push({
+  name,
+  whichPq,
+  relationship,
+  ifReturned: false,
+});
+
+const resultJson = {
+  clientId,
+  pqStatus,
+};
+
+// PQ status populated after
+{
+  "pqStatus": [
+    {
+      "id": "6-59",
+      "name": "dassdas",
+      "Entry": {
+        "AdminLink": "https://www.cognitoforms.com/DuqueImmigrationInc/6/entries/59",
+        "DateCreated": "2024-09-09T19:39:08.037Z",
+        "DateSubmitted": null,
+        "DateUpdated": "2024-09-09T19:39:08.037Z",
+        "Number": 59,
+        "Order": null,
+        "Timestamp": "2024-09-09T19:39:08.037Z",
+        "User": null,
+        "Version": 1,
+        "Action": "Create entry",
+        "Role": "Internal",
+        "Status": "Incomplete",
+        "PublicLink": "https://www.cognitoforms.com/DuqueImmigrationInc/General#laC78IWltYo_hZHySZMrsYaTsfIQ0d3hehNYs9f2b2k$*",
+        "InternalLink": "https://www.cognitoforms.com/DuqueImmigrationInc/General#R_1Fht11JSImdRtlY6WO_cg67FG_fWsr8faDnAvFtOA$*",
+        "Document2": "https://www.cognitoforms.com/d/beBKnWqYV0GesRAQ7Ma5RQ?code=u0lVh2HOHWv-Hgprao7RU2zpiYsFX4hG5ON_0uL496E$",
+        "Document4": "https://www.cognitoforms.com/d/beBKnWqYV0GesRAQ7Ma5RQ?code=Iyuy5VU8yn5kh-AyJ4VyvaW7M-jYrJX4xDjYxNY-5Ss$"
+      },
+      "whichPq": "general",
+      "ifReturned": false,
+      "relationship": "applicant"
+    },
+    {
+      "id": "6-60",
+      "name": "dsaasdasdsadas",
+      "Entry": {
+        "AdminLink": "https://www.cognitoforms.com/DuqueImmigrationInc/6/entries/60",
+        "DateCreated": "2024-09-09T19:39:12.771Z",
+        "DateSubmitted": null,
+        "DateUpdated": "2024-09-09T19:39:12.771Z",
+        "Number": 60,
+        "Order": null,
+        "Timestamp": "2024-09-09T19:39:12.771Z",
+        "User": null,
+        "Version": 1,
+        "Action": "Create entry",
+        "Role": "Internal",
+        "Status": "Incomplete",
+        "PublicLink": "https://www.cognitoforms.com/DuqueImmigrationInc/General#7uhVYYkVNLpXZHFm3rMD74sGd3sz_mhax1ASr2SKAGk$*",
+        "InternalLink": "https://www.cognitoforms.com/DuqueImmigrationInc/General#AS4srTjmMEAH5M14qovEpdCWhHEtuV4DOT2zpgT2qo8$*",
+        "Document2": "https://www.cognitoforms.com/d/beBKnWqYV0GesRAQ7Ma5RQ?code=v8_kTC52Os-G4gKdR_s02hxmySjCeKGKBAt5Mij7cXU$",
+        "Document4": "https://www.cognitoforms.com/d/beBKnWqYV0GesRAQ7Ma5RQ?code=QcGD2JwaavUeJuqlSrsRpxvNOhpiwTj3yYqLeOuVKLY$"
+      },
+      "whichPq": "general",
+      "ifReturned": false,
+      "relationship": "sponsor"
+    }
+  ]
+}
