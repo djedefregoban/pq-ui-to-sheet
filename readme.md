@@ -32,8 +32,8 @@ Supporter - Shimmel - (PGP) - Received
 - Think about error checks more
 
 # Watcher
-1. Upon cathing an update, find the task using taskID coming from PQ info 
-2. get the JSON in the task and look for the client using internal link
+1. Upon cathing an update, find the task using taskID coming from PQ info
+2. get the JSON in the task and look for the client using ID
 3. Update ifReturned to true from false (# will there be any situations where ifReturned is originally true?)
 4. Send thank you email to the just completer (if the relationship is applicant, and the form has refusal etc. include those stuff into the email)
 4. look through every ifReturned to check if every pq has been received (# make a function for this)
