@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manual PQ Sender</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      .form-section {
+        margin-bottom: 20px;
+        padding: 15px;
+        border: 1px solid #ccc;
+      }
+      label {
+        display: block;
+        margin-bottom: 5px;
+      }
+      input,
+      select {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+      }
+      button {
+        padding: 10px;
+        background-color: #28a745;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+
+      .loading-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(255, 255, 255, 0.8);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+        visibility: hidden;
+      }
+      .spinner {
+        border: 8px solid #f3f3f3;
+        border-top: 8px solid #3498db;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        animation: spin 1s linear infinite;
+      }
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Manual PQ Sender</h2>
+
+    <form id="clientForm">
+      <div class="form-section" id="client-section-1">
+        <label for="clientId">Client ID:</label>
+        <input
+          type="text"
+          id="clientId"
+          name="clientId"
+          placeholder="nnnmmyy"
+          required
+        />
+        <input
+          type="text"
+          id="clientId"
+          name="clientId"
+          placeholder="nnnmmyy"
+          required
+        />
+        <input
+          type="text"
+          id="clientId"
+          name="clientId"
+          placeholder="nnnmmyy"
+          required
+        />
+        
+        <input
+          type="text"
+          id="clientId"
+          name="clientId"
+          placeholder="nnnmmyy"
+          required
+        />
+
+        <h3>PQ Information</h3>
+
+        <div class="pq-group">
+          <label for="pqName">Name:</label>
+          <input
+            type="text"
+            id="pqName-1"
+            name="pqName"
+            placeholder="Enter name"
+            required
+          />
+
+          <label for="relationship">Relationship:</label>
+          <select id="relationship-1" name="relationship">
+            <option value="applicant">Applicant</option>
+            <option value="spouse">Spouse</option>
+            <option value="sponsor">Sponsor</option>
+            <option value="other">Other</option>
+          </select>
+
+          <label for="whichPq">PQ Type:</label>
+          <select id="whichPq-1" name="whichPq">
+            <option value="general">General</option>
+            <option value="pgp">PGP</option>
+            <option value="lmia">LMIA</option>
+          </select>
+        </div>
+      </div>
+
+      <button type="button" class="add-client" onclick="addClientSection()">
+        Add Receiver
+      </button>
+      <button type="button" onclick="generateJson()">Submit</button>
+    </form>
+
+    <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loadingOverlay">
+      <div class="spinner"></div>
+    </div>
+
+    <script>
+      let clientCount = 1;
+
+      // Function to add more PQ sections
+      function addClientSection() {
+        clientCount++;
+
+        const newSection = document.createElement("div");
+        newSection.classList.add("form-section");
+        newSection.setAttribute("id", `client-section-${clientCount}`);
+
+        newSection.innerHTML = `
+                <label for="pqName-${clientCount}">Name:</label>
+                <input type="text" id="pqName-${clientCount}" name="pqName" placeholder="Enter name" required>
+
+                                <label for="relationship-${clientCount}">Relationship:</label>
+                <select id="relationship-${clientCount}" name="relationship">
+                    <option value="applicant">Applicant</option>
+                    <option value="spouse">Spouse</option>
+                    <option value="sponsor">Sponsor</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label for="whichPq-${clientCount}">PQ Type:</label>
+                <select id="whichPq-${clientCount}" name="whichPq">
+                    <option value="general">General</option>
+                    <option value="pgp">PGP</option>
+                    <option value="lmia">LMIA</option>
+                </select>
+            `;
+
+        document
+          .getElementById("clientForm")
+          .insertBefore(newSection, document.querySelector(".add-client"));
+      }
+
+      // Function to show the loading screen
+      function showLoading() {
+        document.getElementById("loadingOverlay").style.visibility = "visible";
+      }
+
+      // Function to hide the loading screen
+      function hideLoading() {
+        document.getElementById("loadingOverlay").style.visibility = "hidden";
+      }
+
+      // Function to generate JSON and send it to a webhook
+      function generateJson() {
+        const clientId = document.getElementById("clientId").value;
+        const pqStatus = [];
+
+        for (let i = 1; i <= clientCount; i++) {
+          const name = document.getElementById(`pqName-${i}`).value;
+          const whichPq = document.getElementById(`whichPq-${i}`).value;
+          const relationship = document.getElementById(
+            `relationship-${i}`
+          ).value;
+
+          pqStatus.push({
+            name,
+            whichPq,
+            relationship,
+            ifReturned: false,
+          });
+        }
+
+        const resultJson = {
+          clientId,
+          pqStatus,
+        };
+
+        // Show loading screen
+        showLoading();
+
+        const webhookUrl =
+          "https://hook.us1.make.com/h7ew87nojp4g4ggmaijgs4b88ng2c3yh";
+
+        // Send the JSON to the webhook using fetch
+        fetch(webhookUrl, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(resultJson),
+        })
+          .then((response) => response.json())
+          .then((data) => {
+            console.log("Success:", data);
+            document.querySelector(
+              "#clientForm"
+            ).innerHTML = `<p>${data.response}</p>`;
+          })
+          .catch((error) => {
+            console.error("Error:", error);
+            document.querySelector("#clientForm").innerHTML = `<p>${error}</p>`;
+          })
+          .finally(() => {
+            // Hide loading screen after the response is received
+            hideLoading();
+          });
+      }
+    </script>
+  </body>
+</html>

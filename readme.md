@@ -1,19 +1,14 @@
 # ALWAYS UPDATE FIRST
 
 # What to care about
-1. Give a different session for each client to prevent manipulation
+1. Give a different session for each client to prevent manipulation X
 
-# Procedure
-1. Email to the PQ Question Form
-2. The form determines which PQ to send
-3. Send Google Form to fill out the PQ
-4. PQ automatically sent back to us in pdf to the correspond dropbox
-5. if client doesn't do PQ within a certain amount of time, auto-follow-up
+# Module Overview
 
-# Sender
+## Sender
 1. Enter Client ID and PQ info on the website
 3. Find the client on Notion using client ID
-4. Create a task linked to the client specifying how pqs have been sent (timestamp! no check off!)
+4. Create a task linked to the client specifying how pqs have been sent (leave timestamp! dont check off done!)
 e.g.,
 - Title
 BOT: Send PQ - 3 PQ(s) have been sent (# set up date and dont check off the mark)
@@ -27,11 +22,7 @@ Supporter - Shimmel - (PGP) - Received
 - create entry with taskid attached to it
 5. Upload the JSON to the task
 
-## Remarks
-- Format the email
-- Think about error checks more
-
-# Watcher
+## Watcher
 1. Upon cathing an update, find the task using taskID coming from PQ info
 2. get the JSON in the task and look for the client using ID
 3. Update ifReturned to true from false (# will there be any situations where ifReturned is originally true?)
@@ -44,7 +35,7 @@ Supporter - Shimmel - (PGP) - Received
 - if no,
 	do nothing?
 
-# Reminder
+## Reminder
 1. look through bot tasks (if not checked off and timestamp has been more than a certain time amount)
 2. send a remind email containig the pq status (using JSON!)
 
