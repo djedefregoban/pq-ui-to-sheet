@@ -1,0 +1,30 @@
+{
+  "pqStatus": [
+    {
+      "id": "6-92",
+      "name": "John",
+      "Entry": {
+        "AdminLink": "https://www.cognitoforms.com/DuqueImmigrationInc/6/entries/92",
+        "DateCreated": "2024-09-13T21:14:20.772Z",
+        "DateSubmitted": null,
+        "DateUpdated": "2024-09-13T21:14:20.772Z",
+        "Number": 92,
+        "Order": null,
+        "Timestamp": "2024-09-13T21:14:20.772Z",
+        "User": null,
+        "Version": 1,
+        "Action": "Create entry",
+        "Role": "Internal",
+        "Status": "Incomplete",
+        "PublicLink": "https://www.cognitoforms.com/DuqueImmigrationInc/General#mNN8te4tqBdUap4SnPxrJf6gDWt6e5QJi2QRWv0nCoY$*",
+        "InternalLink": "https://www.cognitoforms.com/DuqueImmigrationInc/General#oaUo6Zic677JyJWcr7dd7wspqe11kB66v45G5uEC-i4$*",
+        "Document2": "https://www.cognitoforms.com/d/beBKnWqYV0GesRAQ7Ma5RQ?code=50QKupX01bNCOsXLvbUBzGCRfNZ4bqMsfsPuzptI5HI$",
+        "Document4": "https://www.cognitoforms.com/d/beBKnWqYV0GesRAQ7Ma5RQ?code=pwgfHPtIeSMlBm1dvh8oTD-GJ-ATrxWCVZFYNhCTFdQ$"
+      },
+      "whichPq": "general",
+      "clientID": null,
+      "ifReturned": false,
+      "relationship": "other"
+    }
+  ]
+}

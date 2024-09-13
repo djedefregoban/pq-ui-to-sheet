@@ -98,6 +98,21 @@ If you answer yes to any of the above questions, please provide: A scanned copy
 
 1. IMM filler ideas by next week
 
+# Finalize
+
+# Front
+
+1. Add a button to remove a receiver
+
+
+
+# Sender
+
+1. change the dropbox credential
+
+2. Beautify the email
+
+3. Add clientID to JSON file name
 
 
 
