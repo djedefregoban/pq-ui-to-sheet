@@ -1,0 +1,265 @@
+[
+  {
+    "Form": {
+      "Id": "15",
+      "InternalName": "Spousal",
+      "Name": "spousal"
+    },
+    "PersonalDetails": {
+      "LastName": "Mishchenko",
+      "MiddleName": null,
+      "GivenNames": "Olena",
+      "EmailAddress": "helenfavor979@gmail.com",
+      "PhoneNumber": "431-887-6471",
+      "DateOfBirth": "1980-05-13",
+      "NativeLanguage": "Ukrainian",
+      "MaritalStatus": "Married",
+      "EyeColour": "Blue",
+      "Height": "170",
+      "Gender": "Female",
+      "CountryOfBirth": {
+        "City": null,
+        "CityStatePostalCode": "",
+        "Country": "Ukraine",
+        "CountryCode": "UA",
+        "FullAddress": "",
+        "FullInternationalAddress": "Ukraine",
+        "Latitude": null,
+        "Line1": null,
+        "Line2": null,
+        "Line3": null,
+        "Longitude": null,
+        "PostalCode": null,
+        "State": null,
+        "StreetAddress": "",
+        "Type": "Home"
+      },
+      "PresentAddress": {
+        "City": "Winnipeg",
+        "CityStatePostalCode": "Winnipeg, MB",
+        "Country": "Canada",
+        "CountryCode": "CA",
+        "FullAddress": "103-695 Leola Street, Winnipeg, MB",
+        "FullInternationalAddress": "103-695 Leola Street, Winnipeg, MB, Canada",
+        "Latitude": null,
+        "Line1": "103-695 Leola Street",
+        "Line2": null,
+        "Line3": null,
+        "Longitude": null,
+        "PostalCode": null,
+        "State": "MB",
+        "StreetAddress": "103-695 Leola Street",
+        "Type": "Home"
+      },
+      "MaidenNameifApplicable": null,
+      "CountryiesOfCitizenship": "Ukraine",
+      "CityOfBirth": {
+        "City": "Nizhyn",
+        "CityStatePostalCode": "Nizhyn",
+        "Country": null,
+        "CountryCode": null,
+        "FullAddress": "Nizhyn",
+        "FullInternationalAddress": "Nizhyn",
+        "Latitude": null,
+        "Line1": null,
+        "Line2": null,
+        "Line3": null,
+        "Longitude": null,
+        "PostalCode": null,
+        "State": null,
+        "StreetAddress": "",
+        "Type": "Home"
+      }
+    },
+    "FamilyInformation": {
+      "SpouseOrCommonlawRelationshipDetails": {
+        "LastName": "Konstantinov",
+        "GivenNames": "Sergii",
+        "MiddleName": null,
+        "DateOfBirth": "1978-10-06",
+        "DateWhenYouStartLivingTogether": null,
+        "PreviousPartnersInformation": [],
+        "Date": "2024-07-12",
+        "DateOfWedding": "2024-09-13",
+        "WasThisPersonPhysicallyPresentAtTheWedding": "Yes",
+        "HaveYouBeenPreviouslyMarriedOrInACommonlawRelationship": "Yes"
+      },
+      "ChildrensInformation": [],
+      "DoYouHaveChildren": "Yes",
+      "AreThereAnyOtherFinanciallyDependentPeople": "Yes",
+      "OtherFinanciallyDependentPeople": [
+        {
+          "Id": "1RCwiA",
+          "LastName": "Konstantinova",
+          "GivenNames": "Yuliia",
+          "MiddleName": null,
+          "DateOfBirth": "2008-06-04",
+          "ItemNumber": 1
+        }
+      ],
+      "OtherFinanciallyDependentPeople_Minimum": 1
+    },
+    "PersonalHistory": [
+      {
+        "Id": "329Acg",
+        "From": "2024-09-01",
+        "CompanyAddress": null,
+        "ResidentialAddress": null,
+        "StatusInCountry": null,
+        "NameOfCompanyEmployerSchoolFacilityasApplicable": null,
+        "To": "2024-09-04",
+        "ActivityJobTitle": null,
+        "ToText": "2024-09-04",
+        "ItemNumber": 1,
+        "From_Minimum": null
+      }
+    ],
+    "PersonalHistory_Minimum": 1,
+    "AddressHistory": [
+      {
+        "Id": "4v662I",
+        "From": "2024-09-23",
+        "Province": null,
+        "Country": null,
+        "PostalCode": null,
+        "To": "2024-09-25",
+        "StreetNumberAndName": null,
+        "Text": "Wed Sep 25 2024 00:00:00 GMT-0500 (Central Daylight Time)",
+        "ItemNumber": 1,
+        "From_Minimum": null
+      }
+    ],
+    "AddressHistory_Minimum": 1,
+    "TravelHistory": [
+      {
+        "Id": "oXkBi",
+        "From": "2024-09-24",
+        "PurposeOfTravel": null,
+        "To": "2024-09-26",
+        "DestinationcityAndCountry": null,
+        "ToText": "Thu Sep 26 2024 00:00:00 GMT-0500 (Central Daylight Time)",
+        "ItemNumber": 1,
+        "From_Minimum": null
+      }
+    ],
+    "TravelHistory_Minimum": 0,
+    "Metadata": {
+      "Name": "Olena Mishchenko",
+      "NotionTaskID": "105aeb6a-e9f2-8194-8345-d30a37b0b8e5",
+      "IsPA": false
+    },
+    "CanadianHistorySponsorEligibility": {
+      "StatusInCanada": "Permanent Resident in Canada",
+      "DateWhenYouObtainedTheStatus": "2024-09-01",
+      "IfNoProvideDetails": {
+        "CountryName": {
+          "City": null,
+          "CityStatePostalCode": "",
+          "Country": null,
+          "CountryCode": null,
+          "FullAddress": "",
+          "FullInternationalAddress": "",
+          "Latitude": null,
+          "Line1": null,
+          "Line2": null,
+          "Line3": null,
+          "Longitude": null,
+          "PostalCode": null,
+          "State": null,
+          "StreetAddress": "",
+          "Type": "Home"
+        },
+        "DateOfYourStayInThisCountry": null
+      },
+      "WereYouBornInCanada": "No",
+      "DoYouResideInCanadaAndNoOtherCountry": "Yes",
+      "DidYouBecomeAPRWithinTheLast5YearsAfterBeingSponsoredAsASpouseCommonlawOrConjugalPartner": "No",
+      "HaveYouEverSubmittedAnApplicationToImmigrationRefugeesAndCitizenshipCanadaWhereAFinalDecisionHasNotBeenMade": "No",
+      "SubmittedApplications": [],
+      "SubmittedApplications_Minimum": 1,
+      "AreYouInReceiptOfSocialAssistanceForAReasonOtherThanDisability": "No",
+      "AreYouAnUndischargedBankruptUnderTheBankruptcyAndInsolvencyAct": "No",
+      "IfYesProvideFullDetails": null,
+      "HaveYouPreviouslySponsoredOrCosignSomeoneBefore": "No",
+      "IfYesProvideTheDetails": {
+        "Name": null,
+        "Relationship": null,
+        "Date": null,
+        "Text": null
+      },
+      "HaveYouOrAnyOfYourAccompanyingFamilyMembersBeenConvictedOfAnyCrimeOrCurrentlyChargedOrSubjectOfAnyCriminalProceedingsInAnyOtherCountryOrBeenDetainedIncarceratedOrPutInJail": "No",
+      "IfYesProvideTheDetails2": null,
+      "HaveYouBeenOrderedToLeaveCanada": "No",
+      "AreYouLateInMakingARequiredPaymentOnANImmigrationLoanAPerformanceBondOrAnyOtherAmountsYouAgreedToPayUnderTheCanadianImmigrationLegislationAndNotMadeArrangementsToDeferPayments": "No",
+      "AreYouCurrentlyDetainedInJailPrisonPenitentiaryOrReformatory": "No",
+      "HaveYouBeenConvictedOfSexualOffenceOrSeriousViolenceAgainstAnyoneOrAnOffenceCausingBodilyHarmAgainstSomeoneWhoIsOrWasRelatedToYouOrAnAttemptToCommitSuchAnOffence": "No",
+      "AreYouInDefaultOfACourtOrderToMakeSupportPaymentsToYourSpouseFormerSpouseCommonLawPartnerFormerCommonLawOrChild": "No",
+      "AreYouTheSubjectOfAnApplicationToRevokeYourCanadianCitizenshipOrPR": "No",
+      "AreYouTheSubjectOfAReportOnInadmissibility": "No",
+      "HaveYouBeenChargedWithAnOffenceUnderAnActOfParliamentPunishableByAMaximumOfImprisonmentOfAtLeast10Years": "No"
+    },
+    "Education": {
+      "WhatIsTheHighestLevelOfEducationYouCompleted": "Others",
+      "SpcifyYourHighestLevelOfEducation": "dsdads",
+      "EducationDetails": {
+        "FieldOfStudy": null,
+        "NameOfSchoolinstitution": null,
+        "Fromyearmonth": null,
+        "Toyearmonth": null,
+        "SchoolAddress": {
+          "City": null,
+          "CityStatePostalCode": "",
+          "Country": null,
+          "CountryCode": null,
+          "FullAddress": "",
+          "FullInternationalAddress": "",
+          "Latitude": null,
+          "Line1": null,
+          "Line2": null,
+          "Line3": null,
+          "Longitude": null,
+          "PostalCode": null,
+          "State": null,
+          "StreetAddress": "",
+          "Type": "Home"
+        }
+      }
+    },
+    "ApplicationDetails2": {
+      "HaveYouEverHadAnAgentLawyerAgencyRepresentYouToAnyCanadianImmigrationApplication": "No",
+      "IfYesProvideTheFollowingDetails": null
+    },
+    "Yes": true,
+    "Entry": {
+      "AdminLink": "https://www.cognitoforms.com/DuqueImmigrationInc/15/entries/3",
+      "DateCreated": "2024-09-18T17:10:39.447Z",
+      "DateSubmitted": "2024-09-18T19:30:21.493Z",
+      "DateUpdated": "2024-09-18T19:30:21.493Z",
+      "Number": 3,
+      "Order": null,
+      "Origin": {
+        "City": null,
+        "CountryCode": null,
+        "IpAddress": "54.161.178.114",
+        "IsImported": false,
+        "Region": null,
+        "Timezone": null,
+        "UserAgent": "Make/production"
+      },
+      "Timestamp": "2024-09-18T19:30:21.493Z",
+      "User": {
+        "Email": "dsmacs.info@gmail.com",
+        "Name": "Processing Duque Immigration"
+      },
+      "Version": 6,
+      "Action": "Submit",
+      "Role": "Internal",
+      "Status": "Submitted",
+      "PublicLink": "https://www.cognitoforms.com/DuqueImmigrationInc/Spousal#4bn-rKRj5Oz7rRSmUcfy6PdySvZw-i18UgiDY7Y1Y2o$*",
+      "InternalLink": "https://www.cognitoforms.com/DuqueImmigrationInc/Spousal#30iwoTZ-MR1muPXYS5NARPJLDqZgnKOAZgkvS0eeyNI$*",
+      "Document2": "https://www.cognitoforms.com/d/beBKnWqYV0GesRAQ7Ma5RQ?code=ijvPMqStR2rpv1e8_l5ycM6cnM_IPQxzA1cJeSwgME4$",
+      "Document4": "https://www.cognitoforms.com/d/beBKnWqYV0GesRAQ7Ma5RQ?code=0faNTbxnvoEtPlID66AePfDiOeIDbNnPjLQ6NgcLy9Q$"
+    },
+    "Id": "15-3"
+  }
+]

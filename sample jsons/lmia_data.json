@@ -1,0 +1,218 @@
+[
+  {
+    "Form": {
+      "Id": "13",
+      "InternalName": "Lmia",
+      "Name": "lmia"
+    },
+    "Metadata": {
+      "Name": "NAMENAME2",
+      "NotionTaskID": "105aeb6a-e9f2-81de-b411-faa933f28241",
+      "IsPA": false
+    },
+    "BusinessDetails": {
+      "CanadaRevenueAgencyBusinessNumber": "dassd",
+      "BusinessLegalNameAsRegisteredWithCRA": "sdasdadsa",
+      "BusinessAddress": {
+        "City": "sadsda",
+        "CityStatePostalCode": "sadsda, sadsda sadsaddsa",
+        "Country": "Armenia",
+        "CountryCode": "AM",
+        "FullAddress": "dasdsasad, sadsda, sadsda sadsaddsa",
+        "FullInternationalAddress": "dasdsasad, sadsda, sadsda sadsaddsa, Armenia",
+        "Latitude": null,
+        "Line1": "dasdsasad",
+        "Line2": null,
+        "Line3": null,
+        "Longitude": null,
+        "PostalCode": "sadsaddsa",
+        "State": "sadsda",
+        "StreetAddress": "dasdsasad",
+        "Type": "Home"
+      },
+      "BusinessBranchLocations": [],
+      "BusinessBranchLocations_Minimum": 1,
+      "TypeOfBusiness": "Sole Proprietorship",
+      "DateBusinessStarted": "2024-09-03",
+      "MailingAddressIfDifferentFromBusinessAddress": {
+        "City": null,
+        "CityStatePostalCode": "",
+        "Country": null,
+        "CountryCode": null,
+        "FullAddress": "",
+        "FullInternationalAddress": "",
+        "Latitude": null,
+        "Line1": null,
+        "Line2": null,
+        "Line3": null,
+        "Longitude": null,
+        "PostalCode": null,
+        "State": null,
+        "StreetAddress": "",
+        "Type": "Home"
+      },
+      "WebsiteAddressifApplicable": null,
+      "SpecifyTheTypeOfYourBusiness": null,
+      "IsYourMailingAddressTheSameAsYourBusinessAddress": "Yes",
+      "DoYouHaveACharteredProfessionalAccountantCPAThatHandlesTheAccountingForYourBusiness": "No",
+      "DoYouHaveMoreThanOneBusinessLocation": "No"
+    },
+    "PrincipalEmployerContactInformation": {
+      "LastName": "dssasd",
+      "GivenNames": "dassasda",
+      "MiddleName": "dsa",
+      "JobTitle": "sadsasasa",
+      "TelephoneNumber": "saadassaddasasdas",
+      "OtherTelephoneNumberifApplicable": null,
+      "EmailAddress": "dsasddsadasdas@gmail.com",
+      "MailingAddressIfDifferentFromBusinessAddress": {
+        "City": null,
+        "CityStatePostalCode": "",
+        "Country": null,
+        "CountryCode": null,
+        "FullAddress": "",
+        "FullInternationalAddress": "",
+        "Latitude": null,
+        "Line1": null,
+        "Line2": null,
+        "Line3": null,
+        "Longitude": null,
+        "PostalCode": null,
+        "State": null,
+        "StreetAddress": "",
+        "Type": "Home"
+      },
+      "AlternateEmployerContactInformation": {
+        "LastName": null,
+        "GivenNames": null,
+        "MiddleName": null,
+        "JobTitle": null,
+        "TelephoneNumber": null,
+        "OtherTelephoneNumberifApplicable": null,
+        "EmailAddress": null,
+        "MailingAddressIfDifferentFromBusinessAddress": {
+          "City": null,
+          "CityStatePostalCode": "",
+          "Country": null,
+          "CountryCode": null,
+          "FullAddress": "",
+          "FullInternationalAddress": "",
+          "Latitude": null,
+          "Line1": null,
+          "Line2": null,
+          "Line3": null,
+          "Longitude": null,
+          "PostalCode": null,
+          "State": null,
+          "StreetAddress": "",
+          "Type": "Home"
+        },
+        "IsYourMailingAddressTheSameAsYourBusinessAddress": null
+      },
+      "IsYourMailingAddressTheSameAsYourBusinessAddress": "Yes",
+      "DoYouHaveAnyOtherEmployersForTheBusiness": "No"
+    },
+    "BusinessDetails2": {
+      "WhatIsThePrincipalBusinessActivityAtTheWorkPlace": "sdadsdaasdadsadas",
+      "EmployeeDetails": {
+        "HowManyCanadianOrPermanentResidentEmployeesAreCurrentlyWorkingFulltime": 1,
+        "HowManyCanadianOrPermanentResidentEmployeesAreCurrentlyWorkingParttime": 1,
+        "HowManyTemporaryForeignWorkerTFWEmployeesAreCurrentlyWorkingFulltime": 1,
+        "HowManyTemporaryForeignWorkerTFWEmployeesAreCurrentlyWorkingParttime": 1,
+        "HowManyCanadianOrPermanentResidentEmployeesAreCurrentlyWorkingFulltime_Minimum": 0,
+        "HowManyCanadianOrPermanentResidentEmployeesAreCurrentlyWorkingFulltime_IncrementBy": 1,
+        "HowManyCanadianOrPermanentResidentEmployeesAreCurrentlyWorkingParttime_Minimum": 0,
+        "HowManyCanadianOrPermanentResidentEmployeesAreCurrentlyWorkingParttime_IncrementBy": 1,
+        "HowManyTemporaryForeignWorkerTFWEmployeesAreCurrentlyWorkingFulltime_Minimum": 0,
+        "HowManyTemporaryForeignWorkerTFWEmployeesAreCurrentlyWorkingFulltime_IncrementBy": 1,
+        "HowManyTemporaryForeignWorkerTFWEmployeesAreCurrentlyWorkingParttime_Minimum": 0,
+        "HowManyTemporaryForeignWorkerTFWEmployeesAreCurrentlyWorkingParttime_IncrementBy": 1
+      },
+      "IfYesProvideDetails": {
+        "WhatWasTheReasonForTheLayoffs": null,
+        "HowManyCanadiansPermanentResidents": null,
+        "HowManyTemporaryForeignWorkers": null,
+        "HowManyCanadiansPermanentResidents_Minimum": 0,
+        "HowManyCanadiansPermanentResidents_IncrementBy": 1,
+        "HowManyTemporaryForeignWorkers_Minimum": 0,
+        "HowManyTemporaryForeignWorkers_IncrementBy": 1
+      },
+      "IfYesProvideDetails2": null,
+      "IfYesProvideDetails3": null,
+      "IfYesProvideDetails4": null,
+      "DidTheBusinessReportMoreThan5MillionCADInAnnualGrossRevenueToTheCRADuringItsLastTaxYear": "No",
+      "IsYourBusinessInGoodFinancialStanding": "No",
+      "WillBeAbleToMeetAllFinancialObligationsToAnyTemporaryForeignWorkerYouHireForTheEntireDurationOfTheirEmployment": "No",
+      "WereAnyEmployeesLaidOffInThePast12MonthsInTheJobPositionBeingRequestedInThisLMIAApplication": "No",
+      "DoesTheBusinessReceiveSupportThroughTheEmploymentAndSocialDevelopmentCanadaServiceCanadasWorkSharingProgram": "No",
+      "IsThereALabourDisputeInProgressAtTheJobLocation": "No",
+      "ProvideTheDetails": null,
+      "WhatOptionsWereExploredToFillThePositionBeingRequestedInThisLMIAApplication2": [
+        "Company website career page"
+      ],
+      "DoYouHaveAJobBankEmployerAccount": "No",
+      "HaveYouEverAdvertisedTheOccupation": "No"
+    },
+    "JobOffer": {
+      "HowManyTFWsAreNeededInThisOccupation": 1,
+      "WhatIsTheJobTitleOfThePositionBeingOfferedToTheTFWs": "dsadsadadsa",
+      "WhatAreTheMainDutiesOfThePosition": "dsadasdadasd",
+      "IfYesPleaseProvideTheFollowingDetails": {
+        "IfYesPleaseProvideTheFollowingDetails": null
+      },
+      "IfYesProvideDetails": null,
+      "IfYesProvideTheDetails": [],
+      "DoYouHaveAnyoneInYourBusinessWhoIsWorkingInTheSamePosition": "No",
+      "IsThereMinimumExperienceThatYouRequiredForTFWsToHave": "No",
+      "DoYouHaveAnyoneInMindThatYouWouldLikeToHireAsATFW": "No",
+      "HowManyTFWsAreNeededInThisOccupation_Minimum": 0,
+      "HowManyTFWsAreNeededInThisOccupation_IncrementBy": 1
+    },
+    "HoursPayAndBenefits": {
+      "HowManyHoursWillTheTFWsWorkEachDay": null,
+      "HowManyHoursWillTheTFWsWorkEachWeek": null,
+      "WhatAreTheOperatingHoursForThePosition": null,
+      "WhatIsTheWageThatYouWillBeOfferingToTheTFWs": null,
+      "IfYesProvideDetails": null,
+      "ThePositionOffers": "Two week paid vacation",
+      "DoYouOfferAnyBenefits": "No",
+      "ProvideTheDetails": null,
+      "HowManyHoursWillTheTFWsWorkEachDay_Minimum": 1,
+      "HowManyHoursWillTheTFWsWorkEachDay_IncrementBy": 1,
+      "HowManyHoursWillTheTFWsWorkEachWeek_IncrementBy": 1,
+      "WhatIsTheWageThatYouWillBeOfferingToTheTFWs_IncrementBy": 1
+    },
+    "Yes": true,
+    "Entry": {
+      "AdminLink": "https://www.cognitoforms.com/DuqueImmigrationInc/13/entries/14",
+      "DateCreated": "2024-09-18T19:54:20.652Z",
+      "DateSubmitted": "2024-09-18T21:07:06.024Z",
+      "DateUpdated": "2024-09-18T21:07:06.024Z",
+      "Number": 14,
+      "Order": null,
+      "Origin": {
+        "City": null,
+        "CountryCode": null,
+        "IpAddress": "54.80.47.193",
+        "IsImported": false,
+        "Region": null,
+        "Timezone": null,
+        "UserAgent": "Make/production"
+      },
+      "Timestamp": "2024-09-18T21:07:06.024Z",
+      "User": {
+        "Email": "dsmacs.info@gmail.com",
+        "Name": "Processing Duque Immigration"
+      },
+      "Version": 8,
+      "Action": "Submit",
+      "Role": "Public",
+      "Status": "Submitted",
+      "PublicLink": "https://www.cognitoforms.com/DuqueImmigrationInc/Lmia#RHzLICLIaLvlJAlO87FrwHBKge4gPBuizCrSGzJdahc$*",
+      "InternalLink": "https://www.cognitoforms.com/DuqueImmigrationInc/Lmia#ayeYubKoyaN4LjsA-50bL8A7RG77gvZH00Vf98INodY$*",
+      "Document1": "https://www.cognitoforms.com/d/beBKnWqYV0GesRAQ7Ma5RQ?code=VzOucSq9ofZn-uEScMoyFn-D7GN2MH7qmyhF2A2rmnE$",
+      "Document2": "https://www.cognitoforms.com/d/beBKnWqYV0GesRAQ7Ma5RQ?code=Av23vr0AKcJRnT09MX6_LI_WzUT49D-7SvBqIBzR7YM$"
+    },
+    "Id": "13-14"
+  }
+]
