@@ -39,6 +39,22 @@ Supporter - Shimmel - (PGP) - Received
 1. look through bot tasks (if not checked off and timestamp has been more than a certain time amount)
 2. send a remind email containig the pq status (using JSON!)
 
+## Email Sending logic
+1. Send thank you email when pa completes pq (w/ document request)
+2. Send Booking email when everyone completes pq
+
+
+LMIA email content
+# After client completing pq, The BOT will be sending an email containing the message below
+
+PLEASE PROVIDE DOCUMENTS (BELOW) - SCANNED COPY
+
+Any advertising that you have done
+
+Article of incorporation for your business
+
+Proof of Business Registration from CRA
+
 # Remarks
 1. Date of completion
 
