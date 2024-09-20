@@ -30,6 +30,7 @@ Supporter - Shimmel - (PGP) - Received
 	1. using the task id, check off the mark of the task
 	2. create another task linked to the client indicating every pq has been received (timestamp!)
 	3. Send booking email
+	4. Send PQ documents for their review
 
 - if false,
 	done
@@ -66,3 +67,34 @@ Proof of Business Registration from CRA
 1. change the dropbox credential
 2. Fix the front so that it'll be bugless
 3. Beautify the email
+
+
+
+
+# Form
+
+- Mandatory fields
+
+- Which questions to know which documents to request (DO THIS?)
+
+- Table another condition to check rushing dates
+
+# Email
+
+- Prettify it
+
+# Dropbox
+
+- Dropbox access (JD)
+
+# Notion (Front end)
+
+- validate the email address before putting into the master list (https://verifalia.com/validate-email)
+
+# Improvements
+
+- Document templates
+
+- More PQs
+
+- Send PQs to the clients too
