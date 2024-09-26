@@ -77,12 +77,6 @@ Proof of Business Registration from CRA
 
 - Which questions to know which documents to request (DO THIS?)
 
-- Table another condition to check rushing dates
-
-# Email
-
-- Prettify it
-
 # Dropbox
 
 - Dropbox access (JD)
@@ -96,5 +90,3 @@ Proof of Business Registration from CRA
 - Document templates
 
 - More PQs
-
-- Send PQs to the clients too
