@@ -24,6 +24,9 @@ Supporter - Shimmel - (PGP) - Received
 1. Upon catching an update, find the task using taskID coming from PQ info
 2. get the JSON in the task and get the client page
 3. Update ifReturned to true
+4. Update the JSON file
+
+Paths:
 4. Send document request email if the completer is PA
 4. look through every ifReturned to check if every pq has been received (# make a function for this)
 - if true,
