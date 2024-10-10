@@ -63,52 +63,65 @@
       #clientForm {
         width: 500px;
       }
-      .remove-client {
-        background-color: #dc3545;
-        margin-top: 10px;
-      }
       .button-container {
         display: flex;
-        gap: 10px;
+        gap: 15px;
       }
       .button-container button {
         flex: 1;
+      }
+      .remove-client {
+        background-color: #dc3545;
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+        margin-top: 10px;
+      }
+      .remove-client:hover {
+        background-color: #c82333;
       }
     </style>
   </head>
   <body>
     <h2>Manual PQ Sender</h2>
     <form id="clientForm">
-      <h3>Client Information</h3>
-      <label for="clientId-number">Client No.</label>
-      <input type="text" id="clientId-number" name="clientId-number" required />
-      <label for="clientId-month">Month</label>
-      <select id="clientId-month" name="clientId-month" required>
-        <option value="Jan">Jan</option>
-        <option value="Feb">Feb</option>
-        <option value="Mar">Mar</option>
-        <option value="April">April</option>
-        <option value="May">May</option>
-        <option value="June">June</option>
-        <option value="July">July</option>
-        <option value="Aug">Aug</option>
-        <option value="Sept">Sept</option>
-        <option value="Oct">Oct</option>
-        <option value="Nov">Nov</option>
-        <option value="Dec">Dec</option>
-      </select>
-      <label for="clientId-year">Year</label>
-      <select id="clientId-year" name="clientId-year" required>
-        <option value="2020">2020</option>
-        <option value="2021">2021</option>
-        <option value="2022">2022</option>
-        <option value="2023">2023</option>
-        <option value="2024">2024</option>
-      </select>
       <div class="form-section" id="client-section-1">
+        <h3>Client Information</h3>
+        <label for="clientId-number">Client No.</label>
+        <input
+          type="text"
+          id="clientId-number"
+          name="clientId-number"
+          required
+        />
+        <label for="clientId-month">Month</label>
+        <select id="clientId-month" name="clientId-month" required>
+          <option value="Jan">Jan</option>
+          <option value="Feb">Feb</option>
+          <option value="Mar">Mar</option>
+          <option value="April">April</option>
+          <option value="May">May</option>
+          <option value="June">June</option>
+          <option value="July">July</option>
+          <option value="Aug">Aug</option>
+          <option value="Sept">Sept</option>
+          <option value="Oct">Oct</option>
+          <option value="Nov">Nov</option>
+          <option value="Dec">Dec</option>
+        </select>
+        <label for="clientId-year">Year</label>
+        <select id="clientId-year" name="clientId-month" required>
+          <option value="2020">2020</option>
+          <option value="2021">2021</option>
+          <option value="2022">2022</option>
+          <option value="2023">2023</option>
+          <option value="2024">2024</option>
+        </select>
         <h3>PQ Information</h3>
+        <h4>Receiver 1</h4>
         <div class="pq-group">
-          <label for="pqName-1">Name</label>
+          <label for="pqName">Name</label>
           <input
             type="text"
             id="pqName-1"
@@ -116,7 +129,7 @@
             placeholder="Enter full name"
             required
           />
-          <label for="relationship-1">Relationship</label>
+          <label for="relationship">Relationship</label>
           <select id="relationship-1" name="relationship">
             <option value="applicant">Principal Applicant</option>
             <option value="spouse">Spouse</option>
@@ -125,7 +138,7 @@
             <option value="sponsor">Sponsor</option>
             <option value="other">Other</option>
           </select>
-          <label for="whichPq-1">PQ Type</label>
+          <label for="whichPq">PQ Type</label>
           <select id="whichPq-1" name="whichPq">
             <option value="general">General PQ</option>
             <option value="spousal">Spousal Sponsorship PQ</option>
@@ -137,13 +150,6 @@
             </option>
           </select>
         </div>
-        <button
-          type="button"
-          class="remove-client"
-          onclick="removeClientSection(1)"
-        >
-          Remove Receiver
-        </button>
       </div>
       <div class="button-container">
         <button type="button" class="add-client" onclick="addClientSection()">
@@ -164,37 +170,34 @@
         newSection.classList.add("form-section");
         newSection.setAttribute("id", `client-section-${clientCount}`);
         newSection.innerHTML = `
-          <label for="pqName-${clientCount}">Name</label>
-          <input
-            type="text"
-            id="pqName-${clientCount}"
-            name="pqName"
-            placeholder="Enter full name"
-            required
-          />
-          <label for="relationship-${clientCount}">Relationship</label>
-          <select id="relationship-${clientCount}" name="relationship">
-            <option value="applicant">Principal Applicant</option>
-            <option value="spouse">Spouse</option>
-            <option value="child">Child</option>
-            <option value="sibling">Sibling</option>
-            <option value="sponsor">Sponsor</option>
-            <option value="other">Other</option>
-          </select>
-          <label for="whichPq-${clientCount}">PQ Type</label>
-          <select id="whichPq-${clientCount}" name="whichPq">
-            <option value="general">General PQ</option>
-            <option value="spousal">Spousal Sponsorship PQ</option>
-            <option value="pgp">
-              Parents and Grandparents Program (PGP) PQ
-            </option>
-            <option value="lmia">
-              Labour Market Impact Assessment (LMIA) PQ
-            </option>
-          </select>
-          <button type="button" class="remove-client" onclick="removeClientSection(${clientCount})">
-            Remove Receiver
-          </button>
+          <h4>Receiver ${clientCount}</h4>
+          <div class="pq-group">
+            <label for="pqName-${clientCount}">Name</label>
+            <input
+              type="text"
+              id="pqName-${clientCount}"
+              name="pqName"
+              placeholder="Enter full name"
+              required
+            />
+            <label for="relationship-${clientCount}">Relationship</label>
+            <select id="relationship-${clientCount}" name="relationship">
+              <option value="applicant">Principal Applicant</option>
+              <option value="spouse">Spouse</option>
+              <option value="child">Child</option>
+              <option value="sibling">Sibling</option>
+              <option value="sponsor">Sponsor</option>
+              <option value="other">Other</option>
+            </select>
+            <label for="whichPq-${clientCount}">PQ Type</label>
+            <select id="whichPq-${clientCount}" name="whichPq">
+              <option value="general">General PQ</option>
+              <option value="spousal">Spousal Sponsorship PQ</option>
+              <option value="pgp">Parents and Grandparents Program (PGP) PQ</option>
+              <option value="lmia">Labour Market Impact Assessment (LMIA) PQ</option>
+            </select>
+            <button type="button" class="remove-client" onclick="removeClientSection(${clientCount})">Remove Receiver</button>
+          </div>
         `;
         document
           .getElementById("clientForm")
@@ -203,23 +206,25 @@
             document.querySelector(".button-container")
           );
       }
+
       function removeClientSection(sectionId) {
-        if (clientCount > 1) {
-          const sectionToRemove = document.getElementById(
-            `client-section-${sectionId}`
-          );
+        const sectionToRemove = document.getElementById(
+          `client-section-${sectionId}`
+        );
+        if (sectionToRemove) {
           sectionToRemove.remove();
           clientCount--;
-        } else {
-          alert("You cannot remove the last receiver.");
         }
       }
+
       function showLoading() {
         document.getElementById("loadingOverlay").style.visibility = "visible";
       }
+
       function hideLoading() {
         document.getElementById("loadingOverlay").style.visibility = "hidden";
       }
+
       function generateJson() {
         const clientIdArr = [
           document.getElementById("clientId-number").value,
@@ -227,25 +232,28 @@
           document.getElementById("clientId-year").value,
         ];
         const pqInfoArr = [];
-        for (let i = 1; i <= clientCount; i++) {
-          const name = document.getElementById(`pqName-${i}`).value;
-          const whichPq = document.getElementById(`whichPq-${i}`).value;
-          const relationship = document.getElementById(
-            `relationship-${i}`
+        const sections = document.querySelectorAll(".form-section");
+        sections.forEach((section, index) => {
+          if (index === 0) return; // Skip the first section (client information)
+          const name = section.querySelector('input[name="pqName"]').value;
+          const whichPq = section.querySelector('select[name="whichPq"]').value;
+          const relationship = section.querySelector(
+            'select[name="relationship"]'
           ).value;
           pqInfoArr.push({
             name,
             whichPq,
             relationship,
           });
-        }
+        });
         const resultJson = {
           clientIdArr,
           pqInfoArr,
         };
+
         showLoading();
         const webhookUrl =
-          "https://hook.us1.make.com/h7ew87nojp4g4ggmaijgs4b88ng2c3yh";
+          "https://hook.us1.make.com/wjhslpxen5xsmiccawscpc78sw5pq5n9";
         fetch(webhookUrl, {
           method: "POST",
           headers: {

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Manual PQ Sender</title>
+    <title>PQ Sender</title>
     <style>
       body {
         font-family: Arial, sans-serif;
@@ -63,6 +63,13 @@
       }
       #clientForm {
         width: 500px;
+      }
+      .button-container {
+        display: flex;
+        gap: 15px;
+      }
+      .button-container button {
+        flex: 1;
       }
     </style>
   </head>
@@ -138,11 +145,12 @@
           </select>
         </div>
       </div>
-
-      <button type="button" class="add-client" onclick="addClientSection()">
-        Add Receiver
-      </button>
-      <button type="button" onclick="generateJson()">Submit</button>
+      <div class="button-container">
+        <button type="button" class="add-client" onclick="addClientSection()">
+          Add Receiver
+        </button>
+        <button type="button" onclick="generateJson()">Submit</button>
+      </div>
     </form>
 
     <!-- Loading Overlay -->
@@ -197,7 +205,10 @@
 
         document
           .getElementById("clientForm")
-          .insertBefore(newSection, document.querySelector(".add-client"));
+          .insertBefore(
+            newSection,
+            document.querySelector(".button-container")
+          );
       }
 
       // Function to show the loading screen
@@ -265,7 +276,6 @@
             document.querySelector("#clientForm").innerHTML = `<p>${error}</p>`;
           })
           .finally(() => {
-            // Hide loading screen after the response is received
             hideLoading();
           });
       }
