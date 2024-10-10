@@ -80,13 +80,3 @@ Proof of Business Registration from CRA
 # Dropbox
 
 - Dropbox access (JD)
-
-# Notion (Front end)
-
-- validate the email address before putting into the master list (https://verifalia.com/validate-email)
-
-# Improvements
-
-- Document templates
-
-- More PQs

@@ -1,136 +1,27 @@
-[
-  {
-    "Form": {
-      "Id": "6",
-      "InternalName": "General",
-      "Name": "general"
-    },
-    "PersonalDetails": {
-      "LastName": "dsadasdsa",
-      "MiddleName": null,
-      "GivenNames": "sdasdasdsaadssad",
-      "EmailAddress": null,
-      "PhoneNumber": "assadasdasdsad",
-      "DateOfBirth": "2024-09-25",
-      "NativeLanguage": "ssadasdsadsaddsa",
-      "MaritalStatus": "Single",
-      "EyeColour": null,
-      "YourStatusInCanada": {
-        "PortOfEntryToCanada": {
-          "City": null,
-          "CityStatePostalCode": "",
-          "Country": null,
-          "CountryCode": null,
-          "FullAddress": "",
-          "FullInternationalAddress": "",
-          "Latitude": null,
-          "Line1": null,
-          "Line2": null,
-          "Line3": null,
-          "Longitude": null,
-          "PostalCode": null,
-          "State": null,
-          "StreetAddress": "",
-          "Type": "Home"
-        },
-        "YourStatus": null,
-        "YourStatusExpiryDate": null,
-        "DateOfEntryToCanada": null,
-        "DateOfTheOriginalEntryToCanada": null,
-        "DateOfTheMostRecentEntryToCanada": null,
-        "PortOfTheOriginalEntryToCanada": {
-          "City": null,
-          "CityStatePostalCode": "",
-          "Country": null,
-          "CountryCode": null,
-          "FullAddress": "",
-          "FullInternationalAddress": "",
-          "Latitude": null,
-          "Line1": null,
-          "Line2": null,
-          "Line3": null,
-          "Longitude": null,
-          "PostalCode": null,
-          "State": null,
-          "StreetAddress": "",
-          "Type": "Home"
-        },
-        "PortOfTheMostRecentEntryToCanada": {
-          "City": null,
-          "CityStatePostalCode": "",
-          "Country": null,
-          "CountryCode": null,
-          "FullAddress": "",
-          "FullInternationalAddress": "",
-          "Latitude": null,
-          "Line1": null,
-          "Line2": null,
-          "Line3": null,
-          "Longitude": null,
-          "PostalCode": null,
-          "State": null,
-          "StreetAddress": "",
-          "Type": "Home"
-        },
-        "SpecifyYourStatus": null,
-        "HaveYouEnteredCanadaMoreThanOnce": null
-      },
-      "Height": null,
-      "Gender": "Male",
-      "IDDocuments": {
-        "Passport": {
-          "PassportNumber": "adsassaddas",
-          "CountryOrTerritoryOfIssue": {
-            "City": null,
-            "CityStatePostalCode": "",
-            "Country": "Armenia",
-            "CountryCode": "AM",
-            "FullAddress": "",
-            "FullInternationalAddress": "Armenia",
-            "Latitude": null,
-            "Line1": null,
-            "Line2": null,
-            "Line3": null,
-            "Longitude": null,
-            "PostalCode": null,
-            "State": null,
-            "StreetAddress": "",
-            "Type": "Home"
-          },
-          "IssueDate": "2024-09-19",
-          "ExpiryDate": "2024-09-24"
-        },
-        "NationalIdentityDocument": {
-          "DocumentNumber": null,
-          "CountryOrTerritoryOfIssue": {
-            "City": null,
-            "CityStatePostalCode": "",
-            "Country": null,
-            "CountryCode": null,
-            "FullAddress": "",
-            "FullInternationalAddress": "",
-            "Latitude": null,
-            "Line1": null,
-            "Line2": null,
-            "Line3": null,
-            "Longitude": null,
-            "PostalCode": null,
-            "State": null,
-            "StreetAddress": "",
-            "Type": "Home"
-          },
-          "IssueDate": null,
-          "ExpiryDate": null
-        },
-        "DoYouHaveANationalIdentityDocument": "No"
-      },
-      "CountryOfBirth": {
+{
+  "Form": {
+    "Id": "6",
+    "InternalName": "General",
+    "Name": "general"
+  },
+  "PersonalDetails": {
+    "LastName": "dsadasdsa",
+    "MiddleName": null,
+    "GivenNames": "sdasdasdsaadssad",
+    "EmailAddress": null,
+    "PhoneNumber": "assadasdasdsad",
+    "DateOfBirth": "2024-09-25",
+    "NativeLanguage": "ssadasdsadsaddsa",
+    "MaritalStatus": "Single",
+    "EyeColour": null,
+    "YourStatusInCanada": {
+      "PortOfEntryToCanada": {
         "City": null,
         "CityStatePostalCode": "",
-        "Country": "Armenia",
-        "CountryCode": "AM",
+        "Country": null,
+        "CountryCode": null,
         "FullAddress": "",
-        "FullInternationalAddress": "Armenia",
+        "FullInternationalAddress": "",
         "Latitude": null,
         "Line1": null,
         "Line2": null,
@@ -141,409 +32,516 @@
         "StreetAddress": "",
         "Type": "Home"
       },
-      "PresentAddress": {
-        "City": "dasdsa",
-        "CityStatePostalCode": "dasdsa, saddsasd",
-        "Country": "Afghanistan",
-        "CountryCode": "AF",
-        "FullAddress": "dasdasd, dasdsa, saddsasd",
-        "FullInternationalAddress": "dasdasd, dasdsa, saddsasd, Afghanistan",
-        "Latitude": null,
-        "Line1": "dasdasd",
-        "Line2": null,
-        "Line3": null,
-        "Longitude": null,
-        "PostalCode": null,
-        "State": "saddsasd",
-        "StreetAddress": "dasdasd",
-        "Type": "Home"
-      },
-      "MaidenNameifApplicable": null,
-      "CountryiesOfCitizenship": "sadsadsadsad",
-      "CityOfBirth2": {
-        "City": "dassdadsasadsad",
-        "CityStatePostalCode": "dassdadsasadsad",
-        "Country": null,
-        "CountryCode": null,
-        "FullAddress": "dassdadsasadsad",
-        "FullInternationalAddress": "dassdadsasadsad",
-        "Latitude": null,
-        "Line1": null,
-        "Line2": null,
-        "Line3": null,
-        "Longitude": null,
-        "PostalCode": null,
-        "State": null,
-        "StreetAddress": "",
-        "Type": "Home"
-      },
-      "AreYouCurrentlyInCanada": "No"
-    },
-    "ImmigrationHistoryCitizenship": {
-      "Question1": {
-        "IfYesProvideDetailsIncludingNames": null,
-        "Answer1": "No"
-      },
-      "Question2": {
-        "IfYesProvideDetails": null,
-        "Answer2": "No"
-      },
-      "Question3": {
-        "IfYesProvideDetails": null,
-        "Answer3": "No"
-      },
-      "Question4": {
-        "RefusedApplications": [],
-        "RefusedApplications_Minimum": 1,
-        "Answer4": "No"
-      },
-      "Question5": {
-        "AppliedApprovedApplications": [],
-        "AppliedApprovedApplications_Minimum": 1,
-        "Answer5": "No"
-      },
-      "Question6": {
-        "IfYesProvideDetails": null,
-        "Answer6": "No"
-      },
-      "Question7": {
-        "IfYesProvideDetails": null,
-        "Answer7": "No"
-      },
-      "Question8": {
-        "IfYesProvideDetails": null,
-        "Answer8": "No"
-      },
-      "Question9": {
-        "IfYesProvideDetails": null,
-        "Answer9": "No"
-      }
-    },
-    "FamilyInformation": {
-      "SpouseOrCommonlawRelationshipDetails": {
-        "LastName": null,
-        "FirstName": null,
-        "MiddleName": null,
-        "DateOfBirth": null,
-        "DateOfWedding": null,
-        "DateWhenYouStartLivingTogether": null,
-        "DateOfDeath": null,
-        "PreviousPartnersInformation": [],
-        "PreviousPartnersInformation_Minimum": 1,
-        "IsThisPersonPhysicallyPresentAtTheWedding": null,
-        "CityOfDeath2": {
-          "City": null,
-          "CityStatePostalCode": "",
-          "Country": null,
-          "CountryCode": null,
-          "FullAddress": "",
-          "FullInternationalAddress": "",
-          "Latitude": null,
-          "Line1": null,
-          "Line2": null,
-          "Line3": null,
-          "Longitude": null,
-          "PostalCode": null,
-          "State": null,
-          "StreetAddress": "",
-          "Type": "Home"
-        },
-        "HaveYouBeenPreviouslyMarriedOrInACommonlawRelationship": null
-      },
-      "FathersInformation": {
-        "LastName": "saddsdsa",
-        "FirstName": "dassssaas",
-        "MiddleName": null,
-        "DateOfBirth": "2024-09-24",
-        "PlaceOfBirth": {
-          "City": "sdadsadasd",
-          "CityStatePostalCode": "sdadsadasd",
-          "Country": "Aruba",
-          "CountryCode": "AW",
-          "FullAddress": "sdadsadasd",
-          "FullInternationalAddress": "sdadsadasd, Aruba",
-          "Latitude": null,
-          "Line1": null,
-          "Line2": null,
-          "Line3": null,
-          "Longitude": null,
-          "PostalCode": null,
-          "State": null,
-          "StreetAddress": "",
-          "Type": "Home"
-        },
-        "MaritalStatus": "Single",
-        "PresentAddress": {
-          "City": "adssaasdasd",
-          "CityStatePostalCode": "adssaasdasd, sadassadas",
-          "Country": "Aruba",
-          "CountryCode": "AW",
-          "FullAddress": "ssdaasd, adssaasdasd, sadassadas",
-          "FullInternationalAddress": "ssdaasd, adssaasdasd, sadassadas, Aruba",
-          "Latitude": null,
-          "Line1": "ssdaasd",
-          "Line2": null,
-          "Line3": null,
-          "Longitude": null,
-          "PostalCode": null,
-          "State": "sadassadas",
-          "StreetAddress": "ssdaasd",
-          "Type": "Home"
-        },
-        "PresentOccupation": "sadsdadsadsa",
-        "PlaceOfDeath": {
-          "City": null,
-          "CityStatePostalCode": "",
-          "Country": null,
-          "CountryCode": null,
-          "FullAddress": "",
-          "FullInternationalAddress": "",
-          "Latitude": null,
-          "Line1": null,
-          "Line2": null,
-          "Line3": null,
-          "Longitude": null,
-          "PostalCode": null,
-          "State": null,
-          "StreetAddress": "",
-          "Type": "Home"
-        },
-        "DateOfDeath": null,
-        "IsThisPersonDeceased": "No"
-      },
-      "MothersInformation": {
-        "LastName": "asdsaasddsa",
-        "FirstName": "ssadasdsaddas",
-        "MiddleName": null,
-        "DateOfBirth": "2024-09-02",
-        "PlaceOfBirth": {
-          "City": "asdsadsad",
-          "CityStatePostalCode": "asdsadsad",
-          "Country": "Albania",
-          "CountryCode": "AL",
-          "FullAddress": "asdsadsad",
-          "FullInternationalAddress": "asdsadsad, Albania",
-          "Latitude": null,
-          "Line1": null,
-          "Line2": null,
-          "Line3": null,
-          "Longitude": null,
-          "PostalCode": null,
-          "State": null,
-          "StreetAddress": "",
-          "Type": "Home"
-        },
-        "MaritalStatus": "Single",
-        "PresentAddress": {
-          "City": "sadsaasd",
-          "CityStatePostalCode": "sadsaasd, asdsadsaas",
-          "Country": "Aruba",
-          "CountryCode": "AW",
-          "FullAddress": "sdsadsdasa, sadsaasd, asdsadsaas",
-          "FullInternationalAddress": "sdsadsdasa, sadsaasd, asdsadsaas, Aruba",
-          "Latitude": null,
-          "Line1": "sdsadsdasa",
-          "Line2": null,
-          "Line3": null,
-          "Longitude": null,
-          "PostalCode": null,
-          "State": "asdsadsaas",
-          "StreetAddress": "sdsadsdasa",
-          "Type": "Home"
-        },
-        "PlaceOfDeath": {
-          "City": null,
-          "CityStatePostalCode": "",
-          "Country": null,
-          "CountryCode": null,
-          "FullAddress": "",
-          "FullInternationalAddress": "",
-          "Latitude": null,
-          "Line1": null,
-          "Line2": null,
-          "Line3": null,
-          "Longitude": null,
-          "PostalCode": null,
-          "State": null,
-          "StreetAddress": "",
-          "Type": "Home"
-        },
-        "DateOfDeath": null,
-        "PresentOccupation": "asdasdsad",
-        "IsThisPersonDeceased": "No"
-      },
-      "SiblingsInformation": [],
-      "SiblingsInformation_Minimum": 1,
-      "ChildrensInformation": [],
-      "ChildrensInformation_Minimum": 1,
-      "DoYouHaveSiblings": "No",
-      "DoYouHaveChildren": "No"
-    },
-    "EducationAndLanguages": {
-      "SecondaryHighschool": {
-        "From": null,
-        "To": null,
-        "ResidentailAddressInCanada": {
-          "City": null,
-          "CityStatePostalCode": "",
-          "Country": null,
-          "CountryCode": null,
-          "FullAddress": "",
-          "FullInternationalAddress": "",
-          "Latitude": null,
-          "Line1": null,
-          "Line2": null,
-          "Line3": null,
-          "Longitude": null,
-          "PostalCode": null,
-          "State": null,
-          "StreetAddress": "",
-          "Type": "Home"
-        },
-        "LanguageOfInstruction": null,
-        "IfNoPleaseExplain": null,
-        "NameOfSchoolinstitution": null,
-        "DoYouHaveACopyOfYourDiploma": null
-      },
-      "EducationInCanada": {
-        "From": null,
-        "To": null,
-        "ResidentailAddressInCanada": {
-          "City": null,
-          "CityStatePostalCode": "",
-          "Country": null,
-          "CountryCode": null,
-          "FullAddress": "",
-          "FullInternationalAddress": "",
-          "Latitude": null,
-          "Line1": null,
-          "Line2": null,
-          "Line3": null,
-          "Longitude": null,
-          "PostalCode": null,
-          "State": null,
-          "StreetAddress": "",
-          "Type": "Home"
-        },
-        "LanguageOfInstruction": null,
-        "IfNoPleaseExplain": null,
-        "NameOfSchoolinstitution": null,
-        "FieldOfStudy": null,
-        "SpecifyYourLevelOfStudy": null,
-        "DoYouHaveACopyOfYourDiploma": null,
-        "LevelOfStudy": null
-      },
-      "LanguageProficiency": {
-        "IfYesProvideTheScoreOnEachModuleAndIndicateWhetherItIsGeneralOrAcademic": null,
-        "TestDate": null,
-        "HaveYouTakenATestFromADesignatedTestingAgencyForYourProficiencyInEnglishFrench2": "No"
-      },
-      "PostsecondaryUniversityCollege": [],
-      "HaveYouHadAnySecondaryEducation": "No",
-      "HaveYouHadAnyPostSecondaryEducation": "No",
-      "HaveYouHadAnyEducationInCanada": "No"
-    },
-    "ApplicationDetails": {
-      "ApplicationHistory": [],
-      "ApplicationHistory_Minimum": 1,
-      "IfYesProvideDetails": null,
-      "ResidentialHistory": {
-        "ResidentialHistoryDetails": {
-          "Text": null
-        },
-        "HaveYouLivedInAnyCountryOtherThanYourCountryOfCitizenshipOrYourCurrentCountryOfResidenceForMoreThanSix6MonthsInThePastFive5Years": "No"
-      },
-      "WhichProvicesOrTerritoriesWouldYouConsiderLivingIn": "saadsassadasdsadsa",
-      "HaveYouEverSubmittedAnApplicationToAnyProvinceInCanada": "No",
-      "HaveYouEverHadAnAgentLawyerAgencyRepresentYouToAnyCanadianImmigrationApplication": "No"
-    },
-    "PersonalHistory": [
-      {
-        "Id": "2JWvMA",
-        "From": "2024-08-27",
-        "CompanyAddress": null,
-        "ResidentialAddress": null,
-        "Status": null,
-        "NameOfCompanyEmployerSchoolFacility": null,
-        "To": "2024-09-05",
-        "ActivityJobTitle": null,
-        "ToText": "2024-09-05",
-        "ItemNumber": 1,
-        "From_Minimum": null
-      }
-    ],
-    "PersonalHistory_Minimum": 1,
-    "AddressHistory": [
-      {
-        "Id": "ogZxe",
-        "From": "2024-09-05",
-        "Province": null,
-        "Country": null,
-        "PostalCode": null,
-        "To": "2024-09-03",
-        "StreetNumberAndName": null,
-        "Text": "Tue Sep 03 2024 00:00:00 GMT-0500 (Central Daylight Time)",
-        "ItemNumber": 1,
-        "From_Minimum": null
-      }
-    ],
-    "AddressHistory_Minimum": 1,
-    "TravelHistory": [
-      {
-        "Id": "29Hmfe",
-        "From": "2024-09-11",
-        "PurposeOfTravel": null,
-        "To": "2024-09-14",
-        "DestinationcityAndCountry": null,
-        "ToText": "Sat Sep 14 2024 00:00:00 GMT-0500 (Central Daylight Time)",
-        "IsMoreThanSixMonths": false,
-        "ItemNumber": 1,
-        "From_Minimum": null
-      }
-    ],
-    "TravelHistory_Minimum": 1,
-    "FriendsRelativesInCanada": {
-      "ProofOfTies": {
-        "IfYesPleaseProvideDetails": null,
-        "DoYouHaveAnyPropertyUnderYourName": "No"
-      },
-      "FriendsRelatives": [],
-      "FriendsRelatives_Minimum": 1,
-      "DoYouHaveFriendsOrRelativesInCanada": "No"
-    },
-    "Metadata": {
-      "Name": "Melle",
-      "NotionTaskID": "105aeb6ae9f281deb411faa933f28241",
-      "IsPA": true
-    },
-    "Yes": true,
-    "Entry": {
-      "AdminLink": "https://www.cognitoforms.com/DuqueImmigrationInc/6/entries/91",
-      "DateCreated": "2024-09-13T21:12:38.601Z",
-      "DateSubmitted": "2024-09-13T21:19:25.129Z",
-      "DateUpdated": "2024-09-13T21:19:25.129Z",
-      "Number": 91,
-      "Order": null,
-      "Origin": {
+      "YourStatus": null,
+      "YourStatusExpiryDate": null,
+      "DateOfEntryToCanada": null,
+      "DateOfTheOriginalEntryToCanada": null,
+      "DateOfTheMostRecentEntryToCanada": null,
+      "PortOfTheOriginalEntryToCanada": {
         "City": null,
+        "CityStatePostalCode": "",
+        "Country": null,
         "CountryCode": null,
-        "IpAddress": "54.80.47.193",
-        "IsImported": false,
-        "Region": null,
-        "Timezone": null,
-        "UserAgent": "Make/production"
+        "FullAddress": "",
+        "FullInternationalAddress": "",
+        "Latitude": null,
+        "Line1": null,
+        "Line2": null,
+        "Line3": null,
+        "Longitude": null,
+        "PostalCode": null,
+        "State": null,
+        "StreetAddress": "",
+        "Type": "Home"
       },
-      "Timestamp": "2024-09-13T21:19:25.129Z",
-      "User": null,
-      "Version": 18,
-      "Action": "Submit",
-      "Role": "Public",
-      "Status": "Submitted",
-      "PublicLink": "https://www.cognitoforms.com/DuqueImmigrationInc/General#2pU04UrrBx4n_uKeIeIKK0Dv-TZTTSKuoXH_GoW8RDI$*",
-      "InternalLink": "https://www.cognitoforms.com/DuqueImmigrationInc/General#iQOP8ChmzpsXBpNvgROZXXSmFzU3JjbK0VWpkjMSdKA$*",
-      "Document2": "https://www.cognitoforms.com/d/beBKnWqYV0GesRAQ7Ma5RQ?code=zZqqjqjpmh0L_tKhgpzWZIulvPo6bTUT_SaLhoLvEQc$",
-      "Document4": "https://www.cognitoforms.com/d/beBKnWqYV0GesRAQ7Ma5RQ?code=xNCkLuvpU9lWLt7LgMFHaSdqfTMp4FOe9yMd8fzowtU$"
+      "PortOfTheMostRecentEntryToCanada": {
+        "City": null,
+        "CityStatePostalCode": "",
+        "Country": null,
+        "CountryCode": null,
+        "FullAddress": "",
+        "FullInternationalAddress": "",
+        "Latitude": null,
+        "Line1": null,
+        "Line2": null,
+        "Line3": null,
+        "Longitude": null,
+        "PostalCode": null,
+        "State": null,
+        "StreetAddress": "",
+        "Type": "Home"
+      },
+      "SpecifyYourStatus": null,
+      "HaveYouEnteredCanadaMoreThanOnce": null
     },
-    "Id": "6-91"
-  }
-]
+    "Height": null,
+    "Gender": "Male",
+    "IDDocuments": {
+      "Passport": {
+        "PassportNumber": "adsassaddas",
+        "CountryOrTerritoryOfIssue": {
+          "City": null,
+          "CityStatePostalCode": "",
+          "Country": "Armenia",
+          "CountryCode": "AM",
+          "FullAddress": "",
+          "FullInternationalAddress": "Armenia",
+          "Latitude": null,
+          "Line1": null,
+          "Line2": null,
+          "Line3": null,
+          "Longitude": null,
+          "PostalCode": null,
+          "State": null,
+          "StreetAddress": "",
+          "Type": "Home"
+        },
+        "IssueDate": "2024-09-19",
+        "ExpiryDate": "2024-09-24"
+      },
+      "NationalIdentityDocument": {
+        "DocumentNumber": null,
+        "CountryOrTerritoryOfIssue": {
+          "City": null,
+          "CityStatePostalCode": "",
+          "Country": null,
+          "CountryCode": null,
+          "FullAddress": "",
+          "FullInternationalAddress": "",
+          "Latitude": null,
+          "Line1": null,
+          "Line2": null,
+          "Line3": null,
+          "Longitude": null,
+          "PostalCode": null,
+          "State": null,
+          "StreetAddress": "",
+          "Type": "Home"
+        },
+        "IssueDate": null,
+        "ExpiryDate": null
+      },
+      "DoYouHaveANationalIdentityDocument": "No"
+    },
+    "CountryOfBirth": {
+      "City": null,
+      "CityStatePostalCode": "",
+      "Country": "Armenia",
+      "CountryCode": "AM",
+      "FullAddress": "",
+      "FullInternationalAddress": "Armenia",
+      "Latitude": null,
+      "Line1": null,
+      "Line2": null,
+      "Line3": null,
+      "Longitude": null,
+      "PostalCode": null,
+      "State": null,
+      "StreetAddress": "",
+      "Type": "Home"
+    },
+    "PresentAddress": {
+      "City": "dasdsa",
+      "CityStatePostalCode": "dasdsa, saddsasd",
+      "Country": "Afghanistan",
+      "CountryCode": "AF",
+      "FullAddress": "dasdasd, dasdsa, saddsasd",
+      "FullInternationalAddress": "dasdasd, dasdsa, saddsasd, Afghanistan",
+      "Latitude": null,
+      "Line1": "dasdasd",
+      "Line2": null,
+      "Line3": null,
+      "Longitude": null,
+      "PostalCode": null,
+      "State": "saddsasd",
+      "StreetAddress": "dasdasd",
+      "Type": "Home"
+    },
+    "MaidenNameifApplicable": null,
+    "CountryiesOfCitizenship": "sadsadsadsad",
+    "CityOfBirth2": {
+      "City": "dassdadsasadsad",
+      "CityStatePostalCode": "dassdadsasadsad",
+      "Country": null,
+      "CountryCode": null,
+      "FullAddress": "dassdadsasadsad",
+      "FullInternationalAddress": "dassdadsasadsad",
+      "Latitude": null,
+      "Line1": null,
+      "Line2": null,
+      "Line3": null,
+      "Longitude": null,
+      "PostalCode": null,
+      "State": null,
+      "StreetAddress": "",
+      "Type": "Home"
+    },
+    "AreYouCurrentlyInCanada": "No"
+  },
+  "ImmigrationHistoryCitizenship": {
+    "Question1": {
+      "IfYesProvideDetailsIncludingNames": null,
+      "Answer1": "No"
+    },
+    "Question2": {
+      "IfYesProvideDetails": null,
+      "Answer2": "No"
+    },
+    "Question3": {
+      "IfYesProvideDetails": null,
+      "Answer3": "No"
+    },
+    "Question4": {
+      "RefusedApplications": ["sdad"],
+      "RefusedApplications_Minimum": 1,
+      "Answer4": "No"
+    },
+    "Question5": {
+      "AppliedApprovedApplications": [],
+      "AppliedApprovedApplications_Minimum": 1,
+      "Answer5": "No"
+    },
+    "Question6": {
+      "IfYesProvideDetails": null,
+      "Answer6": "No"
+    },
+    "Question7": {
+      "IfYesProvideDetails": null,
+      "Answer7": "No"
+    },
+    "Question8": {
+      "IfYesProvideDetails": null,
+      "Answer8": "No"
+    },
+    "Question9": {
+      "IfYesProvideDetails": null,
+      "Answer9": "No"
+    }
+  },
+  "FamilyInformation": {
+    "SpouseOrCommonlawRelationshipDetails": {
+      "LastName": null,
+      "FirstName": null,
+      "MiddleName": null,
+      "DateOfBirth": null,
+      "DateOfWedding": null,
+      "DateWhenYouStartLivingTogether": null,
+      "DateOfDeath": null,
+      "PreviousPartnersInformation": [],
+      "PreviousPartnersInformation_Minimum": 1,
+      "IsThisPersonPhysicallyPresentAtTheWedding": null,
+      "CityOfDeath2": {
+        "City": null,
+        "CityStatePostalCode": "",
+        "Country": null,
+        "CountryCode": null,
+        "FullAddress": "",
+        "FullInternationalAddress": "",
+        "Latitude": null,
+        "Line1": null,
+        "Line2": null,
+        "Line3": null,
+        "Longitude": null,
+        "PostalCode": null,
+        "State": null,
+        "StreetAddress": "",
+        "Type": "Home"
+      },
+      "HaveYouBeenPreviouslyMarriedOrInACommonlawRelationship": null
+    },
+    "FathersInformation": {
+      "LastName": "saddsdsa",
+      "FirstName": "dassssaas",
+      "MiddleName": null,
+      "DateOfBirth": "2024-09-24",
+      "PlaceOfBirth": {
+        "City": "sdadsadasd",
+        "CityStatePostalCode": "sdadsadasd",
+        "Country": "Aruba",
+        "CountryCode": "AW",
+        "FullAddress": "sdadsadasd",
+        "FullInternationalAddress": "sdadsadasd, Aruba",
+        "Latitude": null,
+        "Line1": null,
+        "Line2": null,
+        "Line3": null,
+        "Longitude": null,
+        "PostalCode": null,
+        "State": null,
+        "StreetAddress": "",
+        "Type": "Home"
+      },
+      "MaritalStatus": "Single",
+      "PresentAddress": {
+        "City": "adssaasdasd",
+        "CityStatePostalCode": "adssaasdasd, sadassadas",
+        "Country": "Aruba",
+        "CountryCode": "AW",
+        "FullAddress": "ssdaasd, adssaasdasd, sadassadas",
+        "FullInternationalAddress": "ssdaasd, adssaasdasd, sadassadas, Aruba",
+        "Latitude": null,
+        "Line1": "ssdaasd",
+        "Line2": null,
+        "Line3": null,
+        "Longitude": null,
+        "PostalCode": null,
+        "State": "sadassadas",
+        "StreetAddress": "ssdaasd",
+        "Type": "Home"
+      },
+      "PresentOccupation": "sadsdadsadsa",
+      "PlaceOfDeath": {
+        "City": null,
+        "CityStatePostalCode": "",
+        "Country": null,
+        "CountryCode": null,
+        "FullAddress": "",
+        "FullInternationalAddress": "",
+        "Latitude": null,
+        "Line1": null,
+        "Line2": null,
+        "Line3": null,
+        "Longitude": null,
+        "PostalCode": null,
+        "State": null,
+        "StreetAddress": "",
+        "Type": "Home"
+      },
+      "DateOfDeath": null,
+      "IsThisPersonDeceased": "No"
+    },
+    "MothersInformation": {
+      "LastName": "asdsaasddsa",
+      "FirstName": "ssadasdsaddas",
+      "MiddleName": null,
+      "DateOfBirth": "2024-09-02",
+      "PlaceOfBirth": {
+        "City": "asdsadsad",
+        "CityStatePostalCode": "asdsadsad",
+        "Country": "Albania",
+        "CountryCode": "AL",
+        "FullAddress": "asdsadsad",
+        "FullInternationalAddress": "asdsadsad, Albania",
+        "Latitude": null,
+        "Line1": null,
+        "Line2": null,
+        "Line3": null,
+        "Longitude": null,
+        "PostalCode": null,
+        "State": null,
+        "StreetAddress": "",
+        "Type": "Home"
+      },
+      "MaritalStatus": "Single",
+      "PresentAddress": {
+        "City": "sadsaasd",
+        "CityStatePostalCode": "sadsaasd, asdsadsaas",
+        "Country": "Aruba",
+        "CountryCode": "AW",
+        "FullAddress": "sdsadsdasa, sadsaasd, asdsadsaas",
+        "FullInternationalAddress": "sdsadsdasa, sadsaasd, asdsadsaas, Aruba",
+        "Latitude": null,
+        "Line1": "sdsadsdasa",
+        "Line2": null,
+        "Line3": null,
+        "Longitude": null,
+        "PostalCode": null,
+        "State": "asdsadsaas",
+        "StreetAddress": "sdsadsdasa",
+        "Type": "Home"
+      },
+      "PlaceOfDeath": {
+        "City": null,
+        "CityStatePostalCode": "",
+        "Country": null,
+        "CountryCode": null,
+        "FullAddress": "",
+        "FullInternationalAddress": "",
+        "Latitude": null,
+        "Line1": null,
+        "Line2": null,
+        "Line3": null,
+        "Longitude": null,
+        "PostalCode": null,
+        "State": null,
+        "StreetAddress": "",
+        "Type": "Home"
+      },
+      "DateOfDeath": null,
+      "PresentOccupation": "asdasdsad",
+      "IsThisPersonDeceased": "No"
+    },
+    "SiblingsInformation": [],
+    "SiblingsInformation_Minimum": 1,
+    "ChildrensInformation": [],
+    "ChildrensInformation_Minimum": 1,
+    "DoYouHaveSiblings": "No",
+    "DoYouHaveChildren": "No"
+  },
+  "EducationAndLanguages": {
+    "SecondaryHighschool": {
+      "From": null,
+      "To": null,
+      "ResidentailAddressInCanada": {
+        "City": null,
+        "CityStatePostalCode": "",
+        "Country": null,
+        "CountryCode": null,
+        "FullAddress": "",
+        "FullInternationalAddress": "",
+        "Latitude": null,
+        "Line1": null,
+        "Line2": null,
+        "Line3": null,
+        "Longitude": null,
+        "PostalCode": null,
+        "State": null,
+        "StreetAddress": "",
+        "Type": "Home"
+      },
+      "LanguageOfInstruction": null,
+      "IfNoPleaseExplain": null,
+      "NameOfSchoolinstitution": null,
+      "DoYouHaveACopyOfYourDiploma": null
+    },
+    "EducationInCanada": {
+      "From": null,
+      "To": null,
+      "ResidentailAddressInCanada": {
+        "City": null,
+        "CityStatePostalCode": "",
+        "Country": null,
+        "CountryCode": null,
+        "FullAddress": "",
+        "FullInternationalAddress": "",
+        "Latitude": null,
+        "Line1": null,
+        "Line2": null,
+        "Line3": null,
+        "Longitude": null,
+        "PostalCode": null,
+        "State": null,
+        "StreetAddress": "",
+        "Type": "Home"
+      },
+      "LanguageOfInstruction": null,
+      "IfNoPleaseExplain": null,
+      "NameOfSchoolinstitution": null,
+      "FieldOfStudy": null,
+      "SpecifyYourLevelOfStudy": null,
+      "DoYouHaveACopyOfYourDiploma": null,
+      "LevelOfStudy": null
+    },
+    "LanguageProficiency": {
+      "IfYesProvideTheScoreOnEachModuleAndIndicateWhetherItIsGeneralOrAcademic": null,
+      "TestDate": null,
+      "HaveYouTakenATestFromADesignatedTestingAgencyForYourProficiencyInEnglishFrench2": "No"
+    },
+    "PostsecondaryUniversityCollege": [],
+    "HaveYouHadAnySecondaryEducation": "No",
+    "HaveYouHadAnyPostSecondaryEducation": "No",
+    "HaveYouHadAnyEducationInCanada": "No"
+  },
+  "ApplicationDetails": {
+    "ApplicationHistory": [],
+    "ApplicationHistory_Minimum": 1,
+    "IfYesProvideDetails": null,
+    "ResidentialHistory": {
+      "ResidentialHistoryDetails": {
+        "Text": null
+      },
+      "HaveYouLivedInAnyCountryOtherThanYourCountryOfCitizenshipOrYourCurrentCountryOfResidenceForMoreThanSix6MonthsInThePastFive5Years": "No"
+    },
+    "WhichProvicesOrTerritoriesWouldYouConsiderLivingIn": "saadsassadasdsadsa",
+    "HaveYouEverSubmittedAnApplicationToAnyProvinceInCanada": "No",
+    "HaveYouEverHadAnAgentLawyerAgencyRepresentYouToAnyCanadianImmigrationApplication": "No"
+  },
+  "PersonalHistory": [
+    {
+      "Id": "2JWvMA",
+      "From": "2024-08-27",
+      "CompanyAddress": null,
+      "ResidentialAddress": null,
+      "Status": null,
+      "NameOfCompanyEmployerSchoolFacility": null,
+      "To": "2024-09-05",
+      "ActivityJobTitle": null,
+      "ToText": "2024-09-05",
+      "ItemNumber": 1,
+      "From_Minimum": null
+    }
+  ],
+  "PersonalHistory_Minimum": 1,
+  "AddressHistory": [
+    {
+      "Id": "ogZxe",
+      "From": "2024-09-05",
+      "Province": null,
+      "Country": null,
+      "PostalCode": null,
+      "To": "2024-09-03",
+      "StreetNumberAndName": null,
+      "Text": "Tue Sep 03 2024 00:00:00 GMT-0500 (Central Daylight Time)",
+      "ItemNumber": 1,
+      "From_Minimum": null
+    }
+  ],
+  "AddressHistory_Minimum": 1,
+  "TravelHistory": [
+    {
+      "Id": "29Hmfe",
+      "From": "2024-09-11",
+      "PurposeOfTravel": null,
+      "To": "2024-09-14",
+      "DestinationcityAndCountry": null,
+      "ToText": "Sat Sep 14 2024 00:00:00 GMT-0500 (Central Daylight Time)",
+      "IsMoreThanSixMonths": false,
+      "ItemNumber": 1,
+      "From_Minimum": null
+    }
+  ],
+  "TravelHistory_Minimum": 1,
+  "FriendsRelativesInCanada": {
+    "ProofOfTies": {
+      "IfYesPleaseProvideDetails": null,
+      "DoYouHaveAnyPropertyUnderYourName": "No"
+    },
+    "FriendsRelatives": [],
+    "FriendsRelatives_Minimum": 1,
+    "DoYouHaveFriendsOrRelativesInCanada": "No"
+  },
+  "Metadata": {
+    "Name": "Melle",
+    "NotionTaskID": "113aeb6a-e9f2-81cc-a01e-d50bff5db5ba",
+    "IsPA": true
+  },
+  "Yes": true,
+  "Entry": {
+    "AdminLink": "https://www.cognitoforms.com/DuqueImmigrationInc/6/entries/91",
+    "DateCreated": "2024-09-13T21:12:38.601Z",
+    "DateSubmitted": "2024-09-13T21:19:25.129Z",
+    "DateUpdated": "2024-09-13T21:19:25.129Z",
+    "Number": 91,
+    "Order": null,
+    "Origin": {
+      "City": null,
+      "CountryCode": null,
+      "IpAddress": "54.80.47.193",
+      "IsImported": false,
+      "Region": null,
+      "Timezone": null,
+      "UserAgent": "Make/production"
+    },
+    "Timestamp": "2024-09-13T21:19:25.129Z",
+    "User": null,
+    "Version": 18,
+    "Action": "Submit",
+    "Role": "Public",
+    "Status": "Submitted",
+    "PublicLink": "https://www.cognitoforms.com/DuqueImmigrationInc/General#2pU04UrrBx4n_uKeIeIKK0Dv-TZTTSKuoXH_GoW8RDI$*",
+    "InternalLink": "https://www.cognitoforms.com/DuqueImmigrationInc/General#iQOP8ChmzpsXBpNvgROZXXSmFzU3JjbK0VWpkjMSdKA$*",
+    "Document2": "https://www.cognitoforms.com/d/beBKnWqYV0GesRAQ7Ma5RQ?code=zZqqjqjpmh0L_tKhgpzWZIulvPo6bTUT_SaLhoLvEQc$",
+    "Document4": "https://www.cognitoforms.com/d/beBKnWqYV0GesRAQ7Ma5RQ?code=xNCkLuvpU9lWLt7LgMFHaSdqfTMp4FOe9yMd8fzowtU$"
+  },
+  "Id": "6-121"
+}
